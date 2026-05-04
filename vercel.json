@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{pages,public,data,component-library}/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ]
+}

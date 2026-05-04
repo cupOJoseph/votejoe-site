@@ -1,0 +1,11 @@
+{
+  "name": "votejoe-static-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static local clone of votejoe.org with reusable template section components.",
+  "scripts": {
+    "fetch": "node fetch-site.js",
+    "start": "node server.js",
+    "audit": "node scripts/audit.js"
+  }
+}
