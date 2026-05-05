@@ -16,7 +16,7 @@ const mime = {
 };
 
 function safeJoin(base, requestPath) {
-  const resolved = path.resolve(base, `.${decodeURIComponent(requestPath)}`);
+  const resolved = path.resolve(base, `.${requestPath}`);
   return resolved.startsWith(base) ? resolved : null;
 }
 
@@ -38,6 +38,16 @@ function pageData(root, route) {
   const html = fs.readFileSync(file, "utf8");
   const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
   return match ? match[1] : null;
+}
+
+function imageFromManifest(root, source) {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(path.join(root, "data", "manifest.json"), "utf8"));
+    const match = [...manifest.images, ...manifest.nextImages].find((image) => image.source === source);
+    return match ? match.local : null;
+  } catch {
+    return null;
+  }
 }
 
 function handleRequest(req, res, root = __dirname) {
@@ -68,12 +78,17 @@ function handleRequest(req, res, root = __dirname) {
       const file = safeJoin(path.join(root, "public"), imagePath);
       return file ? send(res, file) : (res.writeHead(403), res.end("Forbidden"));
     }
+    const localImage = imageFromManifest(root, imagePath);
+    if (localImage) {
+      const file = safeJoin(path.join(root, "public"), localImage);
+      return file ? send(res, file) : (res.writeHead(403), res.end("Forbidden"));
+    }
     res.writeHead(404);
     res.end("Not found");
     return;
   }
 
-  if (pathname.startsWith("/_next/") || pathname.startsWith("/assets/")) {
+  if (pathname.startsWith("/_next/") || pathname.startsWith("/assets/") || pathname.startsWith("/img/")) {
     const file = safeJoin(path.join(root, "public"), pathname);
     return file ? send(res, file) : (res.writeHead(403), res.end("Forbidden"));
   }

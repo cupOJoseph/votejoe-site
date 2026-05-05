@@ -44,9 +44,16 @@ for (const image of [...manifest.images, ...manifest.nextImages]) {
 const html = requiredRoutes
   .map((route) => fs.readFileSync(path.join(root, "pages", route || "index", "index.html"), "utf8"))
   .join("\n");
+const htmlWithoutNextData = html.replace(
+  /<script id="__NEXT_DATA__" type="application\/json">[\s\S]*?<\/script>/g,
+  "",
+);
 
-assert(!html.includes("https://run.imgix.net"), "Found live run.imgix.net image reference in HTML.");
-assert(!html.includes("https://media.designedtorun.com"), "Found live media.designedtorun.com image reference in HTML.");
+assert(!htmlWithoutNextData.includes("https://run.imgix.net"), "Found live run.imgix.net image reference in rendered HTML.");
+assert(
+  !htmlWithoutNextData.includes("https://media.designedtorun.com"),
+  "Found live media.designedtorun.com image reference in rendered HTML.",
+);
 assert(html.includes("/about"), "Homepage or shared HTML is missing /about link.");
 assert(html.includes("/volunteer"), "Homepage or shared HTML is missing /volunteer link.");
 assert(html.includes("/repair"), "Homepage or shared HTML is missing /repair link.");
@@ -57,10 +64,13 @@ assert(exists("component-library/section-library.js"), "Missing reusable section
 assert(exists("api/index.js"), "Missing Vercel serverless entrypoint.");
 assert(exists("handler.js"), "Missing shared request handler.");
 assert(exists("vercel.json"), "Missing Vercel rewrite configuration.");
+assert(exists("public/img/site/pinstripes.png"), "Missing pinstripe texture asset.");
 const server = fs.readFileSync(path.join(root, "server.js"), "utf8");
 const handler = fs.readFileSync(path.join(root, "handler.js"), "utf8");
 assert(handler.includes('pathname.startsWith("/_next/data/")'), "Handler is missing local Next data route support.");
 assert(handler.includes('pathname === "/_next/image"'), "Handler is missing local Next image route support.");
+assert(handler.includes('pathname.startsWith("/img/")'), "Handler is missing bundled /img asset route support.");
+assert(handler.includes("imageFromManifest"), "Handler is missing manifest-backed image optimizer mapping.");
 const library = fs.readFileSync(path.join(root, "component-library", "section-library.js"), "utf8");
 for (const name of ["HeroSection", "FooterSection", "DonateSection", "GallerySection", "renderSection"]) {
   assert(library.includes(`function ${name}`) || library.includes(` ${name}(`), `Missing component export: ${name}`);

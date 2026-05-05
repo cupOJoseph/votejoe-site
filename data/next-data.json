@@ -319,7 +319,7 @@
             "person": {
               "url": "",
               "@type": "Person",
-              "image": "/assets/images/image-06.jpg",
+              "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/f0848d4c-be21-4177-b334-77690faecdad/f0848d4c-be21-4177-b334-77690faecdad.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=197%2C47%2C817%2C692",
               "sameAs": [
                 "https://facebook.com/votejoeva",
                 "https://instagram.com/votejoe",
@@ -335,7 +335,7 @@
               "honorificPrefix": "Mr."
             }
           },
-          "shareImage": "/assets/images/image-05.png",
+          "shareImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/77317ea9-69a1-460a-88ee-4da1cd8d32f0/77317ea9-69a1-460a-88ee-4da1cd8d32f0.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C57%2C2048%2C1072",
           "shareTitle": "Joe Schiarizzi for Congress",
           "fontCategory": "Sans-serif (Bold)",
           "pageStructure": {
@@ -426,7 +426,7 @@
         "SiteGroupContent": {
           "id": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
           "corners": "NONE",
-          "favicon": "/assets/images/image-36.png",
+          "favicon": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/129959a7-79bd-47b5-a101-9ddc664fdff4/129959a7-79bd-47b5-a101-9ddc664fdff4.png?ixlib=js-3.8.0&bri=0&con=10&sat=0&high=0&shad=0&usm=0&rect=228%2C192%2C5829%2C5829",
           "htmlBody": "",
           "published": true,
           "updatedAt": "2026-04-27T17:36:20.255714+00:00",
@@ -1014,7 +1014,7 @@
               "showEyebrow": false,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-37.jpeg",
+              "desktopImage": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/26fa80a0-1164-42d6-9286-45e711b74785/26fa80a0-1164-42d6-9286-45e711b74785.jpeg?ixlib=js-3.8.0&bri=0&con=4&sat=0&high=0&shad=0&usm=0&rect=311%2C0%2C2780%2C3036",
               "formBarColor": "button-background",
               "headlineSize": 0,
               "logoPosition": "top-left",
@@ -1110,7 +1110,7 @@
               "bgColor": "bg0",
               "captionOn": false,
               "marginTop": "top-large",
-              "thumbnail": "/assets/images/image-38.jpg",
+              "thumbnail": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/84305a3e-87dc-4bbe-8cb0-d62ba807658d/84305a3e-87dc-4bbe-8cb0-d62ba807658d.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C616%2C7360%2C3680",
               "headlineOn": false,
               "description": "<p>Both headline and caption <strong>can be turned off on the sidebar.</strong></p>",
               "imageAltText": "photo (generic)",
@@ -1133,7 +1133,7 @@
           "67b68adb-e352-481a-9b18-9a69d192302c": {
             "id": "67b68adb-e352-481a-9b18-9a69d192302c",
             "data": {
-              "text": "<h2>About Joe</h2><span class=\"image image-framed image-left image-tilt-left\" style=\"width: 37%;\"><span class=\"image-inner-wrapper\"><img src=\"/assets/images/image-39.jpg\" alt=\"\" caption=\"\" align=\"left\" alignwidth=\"37\" tiltdirection=\"left\" variant=\"framed\"></span><span class=\"caption\" style=\"display: none;\"></span></span><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe Schiarizzi is an inventor, affordable housing activist, community organizer running for Congress in Virginia's 7th District.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">As a regional lead for Yimbys of Nova, he has spent years in Virginia fighting for the specific reforms that actually get more affordable homes built. Joe chaired the Falls Church Environmental Sustainability Council, co-founded Bike Falls Church &amp; Falls Church Forward, and is a member of Arlington Young Democrats. He holds two patents, earned degrees in Naval Science &amp; Computer Science, and has conducted research on making computers more energy efficient. Joe founded Solarpunk VC, an investment syndicate that funds climate-focused startups and small businesses in Virginia, because he believes solving the climate crisis and the housing crisis go hand in hand.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Growing up, Joe learned the value of hard work early. Joe's father was a union plumber and a Teamster in Local 25, and his mother worked the night shift at UPS loading boxes so their family could have healthcare. That's why Joe is running on a concrete, passable housing plan that uses existing federal tools to unlock affordable housing across the region.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe is running on three pillars: </span><br></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Affordable Housing:</u> </strong>Declare a national housing emergency and fight for supply-side reforms that get affordable homes built near transit and jobs.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Sustainability</u>: </strong>Confront the climate crisis by investing in clean energy, expanding public transit, and holding polluters to higher standards.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Accountability</u>: </strong>Stand up to this corrupt administration and impeach President Trump on day 1.</span></p></li></ol>",
+              "text": "<h2>About Joe</h2><span class=\"image image-framed image-left image-tilt-left\" style=\"width: 37%;\"><span class=\"image-inner-wrapper\"><img src=\"https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/02d1e91a-f407-48c9-b4ff-c7c34d77cb59/02d1e91a-f407-48c9-b4ff-c7c34d77cb59.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=2122%2C1009%2C3574%2C3162&w=1500\" alt=\"\" caption=\"\" align=\"left\" alignwidth=\"37\" tiltdirection=\"left\" variant=\"framed\"></span><span class=\"caption\" style=\"display: none;\"></span></span><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe Schiarizzi is an inventor, affordable housing activist, community organizer running for Congress in Virginia's 7th District.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">As a regional lead for Yimbys of Nova, he has spent years in Virginia fighting for the specific reforms that actually get more affordable homes built. Joe chaired the Falls Church Environmental Sustainability Council, co-founded Bike Falls Church &amp; Falls Church Forward, and is a member of Arlington Young Democrats. He holds two patents, earned degrees in Naval Science &amp; Computer Science, and has conducted research on making computers more energy efficient. Joe founded Solarpunk VC, an investment syndicate that funds climate-focused startups and small businesses in Virginia, because he believes solving the climate crisis and the housing crisis go hand in hand.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Growing up, Joe learned the value of hard work early. Joe's father was a union plumber and a Teamster in Local 25, and his mother worked the night shift at UPS loading boxes so their family could have healthcare. That's why Joe is running on a concrete, passable housing plan that uses existing federal tools to unlock affordable housing across the region.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe is running on three pillars: </span><br></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Affordable Housing:</u> </strong>Declare a national housing emergency and fight for supply-side reforms that get affordable homes built near transit and jobs.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Sustainability</u>: </strong>Confront the climate crisis by investing in clean energy, expanding public transit, and holding polluters to higher standards.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Accountability</u>: </strong>Stand up to this corrupt administration and impeach President Trump on day 1.</span></p></li></ol>",
               "bgColor": "bg4",
               "eyebrow": "Eyebrow Text Here",
               "headline": "Headline Text Here",
@@ -1196,28 +1196,28 @@
                 {
                   "id": "edcb2903-baed-4366-aa84-3121545452aa",
                   "alt": "",
-                  "image": "/assets/images/image-40.jpg",
+                  "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/285b902c-1336-4274-a792-766bc7f5cf10/285b902c-1336-4274-a792-766bc7f5cf10.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C7360%2C4912",
                   "caption": "",
                   "imageAltText": ""
                 },
                 {
                   "id": "0078cc4d-c02e-4a75-8d36-6657597f856c",
                   "alt": "",
-                  "image": "/assets/images/image-41.jpg",
+                  "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/57107299-04ce-49b0-8814-05cd98a63a40/57107299-04ce-49b0-8814-05cd98a63a40.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C7360%2C4912",
                   "caption": "",
                   "imageAltText": ""
                 },
                 {
                   "id": "9b979e67-8594-4260-8ca7-df821496b56e",
                   "alt": "",
-                  "image": "/assets/images/image-42.jpg",
+                  "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/05fc3b38-cdc6-4302-80dd-f94136e7bde3/05fc3b38-cdc6-4302-80dd-f94136e7bde3.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C7360%2C4912",
                   "caption": "",
                   "imageAltText": ""
                 },
                 {
                   "id": "7c858d63-e189-4abf-895c-f8eebc0815e9",
                   "alt": "",
-                  "image": "/assets/images/image-43.jpg",
+                  "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/d74a397e-957e-4652-a9c5-9145b14cc940/d74a397e-957e-4652-a9c5-9145b14cc940.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C7088%2C4730",
                   "caption": "",
                   "imageAltText": ""
                 }
@@ -1255,7 +1255,7 @@
           "82c49e8e-c043-4575-b370-41703fba56c0": {
             "id": "82c49e8e-c043-4575-b370-41703fba56c0",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg4",
@@ -1277,17 +1277,17 @@
               "buttonType": "underlined",
               "headlineOn": true,
               "layoutType": "full_width_image",
-              "mobileLogo": "/assets/images/image-45.png",
+              "mobileLogo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1320%2C6250%2C3441",
               "bigLogoSize": 0,
               "buttonColor": "button-background",
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-46.avif",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/9da6ae8f-7986-4045-9e8b-4484be5efe9a/9da6ae8f-7986-4045-9e8b-4484be5efe9a.avif?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=658%2C0%2C1390%2C1390",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
@@ -1487,7 +1487,7 @@
           "ca9dc557-b00e-4a16-afc0-ad326d058b1b": {
             "id": "ca9dc557-b00e-4a16-afc0-ad326d058b1b",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg4",
@@ -1509,17 +1509,17 @@
               "buttonType": "underlined",
               "headlineOn": true,
               "layoutType": "full_width_image",
-              "mobileLogo": "/assets/images/image-45.png",
+              "mobileLogo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1320%2C6250%2C3441",
               "bigLogoSize": 0,
               "buttonColor": "button-background",
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-46.avif",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/9da6ae8f-7986-4045-9e8b-4484be5efe9a/9da6ae8f-7986-4045-9e8b-4484be5efe9a.avif?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=658%2C0%2C1390%2C1390",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
@@ -1612,7 +1612,7 @@
                 {
                   "id": "953d3148-59ef-448b-bb96-e09114c54672",
                   "url": "",
-                  "image": "/assets/images/image-48.jpeg",
+                  "image": "https://run.imgix.net/dbf516ea-8c59-417f-978c-1e2f17fdb7ae/58888657-b439-45a3-87e4-e2759c543f61/58888657-b439-45a3-87e4-e2759c543f61.jpeg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=141%2C0%2C1333%2C1333",
                   "title": "<h2>Announcement Title</h2><p>Put your announcement description here.</p>",
                   "eyebrow": "Eyebrow Text Here",
                   "buttonText": "View More",
@@ -1632,7 +1632,7 @@
               "innerBgColor": "bg0",
               "marginBottom": "bottom-large",
               "imageAlignment": "top",
-              "backgroundImage": "/assets/images/image-48.jpeg",
+              "backgroundImage": "https://run.imgix.net/dbf516ea-8c59-417f-978c-1e2f17fdb7ae/58888657-b439-45a3-87e4-e2759c543f61/58888657-b439-45a3-87e4-e2759c543f61.jpeg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=141%2C0%2C1333%2C1333",
               "showBackgroundImage": false
             },
             "type": "ANNOUNCEMENT",
@@ -1676,7 +1676,7 @@
             "id": "79039b28-bfa7-4510-950a-d2131e3a083f",
             "data": {
               "text": "Insert quote text here.",
-              "image": "/assets/images/image-49.jpg",
+              "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1654141695823-podpros-2mMhaoBGjCs-unsplash-.jpg",
               "bgColor": "bg3",
               "textSize": 0,
               "layoutType": "QUOTE_IMAGE",
@@ -1912,7 +1912,7 @@
           "2e4e02f3-9d04-4df2-8d0b-0678a7124b8a": {
             "id": "2e4e02f3-9d04-4df2-8d0b-0678a7124b8a",
             "data": {
-              "logo": "/assets/images/image-50.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/3c519ccb-e54c-422b-9bfe-c80cf2a40d81/3c519ccb-e54c-422b-9bfe-c80cf2a40d81.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1578%2C6250%2C3017",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg3",
@@ -1934,17 +1934,17 @@
               "buttonType": "underlined",
               "headlineOn": true,
               "layoutType": "no_image",
-              "mobileLogo": "/assets/images/image-45.png",
+              "mobileLogo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1320%2C6250%2C3441",
               "bigLogoSize": 0,
               "buttonColor": "button-background",
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-46.avif",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/9da6ae8f-7986-4045-9e8b-4484be5efe9a/9da6ae8f-7986-4045-9e8b-4484be5efe9a.avif?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=658%2C0%2C1390%2C1390",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
@@ -2008,7 +2008,7 @@
           "494bff6d-da7a-4490-b5e6-6ec009de1b1a": {
             "id": "494bff6d-da7a-4490-b5e6-6ec009de1b1a",
             "data": {
-              "logo": "/assets/images/image-51.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/3e39bc2f-126c-48e8-b303-e2e83b72e932/3e39bc2f-126c-48e8-b303-e2e83b72e932.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1460%2C6250%2C3200",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg2",
@@ -2039,7 +2039,7 @@
               "showEyebrow": false,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-52.png",
+              "desktopImage": "https://run.imgix.net/3dbc5473-3dbc-43cc-ad98-06b28b45b9a5/d060173e-c13e-4dd1-b246-6e0f490c62d8/d060173e-c13e-4dd1-b246-6e0f490c62d8.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C183%2C839%2C584",
               "formBarColor": "button-background",
               "headlineSize": 0,
               "logoPosition": "top-left",
@@ -2103,7 +2103,7 @@
           "f0ec273c-4927-43e4-9229-ceb85820d1ec": {
             "id": "f0ec273c-4927-43e4-9229-ceb85820d1ec",
             "data": {
-              "logo": "/assets/images/image-53.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/3fdc669d-f864-431c-927d-e0dc6b305caa/3fdc669d-f864-431c-927d-e0dc6b305caa.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C454%2C2000%2C1012",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg1",
@@ -2134,7 +2134,7 @@
               "showEyebrow": false,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-37.jpeg",
+              "desktopImage": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/26fa80a0-1164-42d6-9286-45e711b74785/26fa80a0-1164-42d6-9286-45e711b74785.jpeg?ixlib=js-3.8.0&bri=0&con=4&sat=0&high=0&shad=0&usm=0&rect=311%2C0%2C2780%2C3036",
               "formBarColor": "button-background",
               "headlineSize": 0,
               "logoPosition": "top-left",
@@ -2227,7 +2227,7 @@
               "showEyebrow": false,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-37.jpeg",
+              "desktopImage": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/26fa80a0-1164-42d6-9286-45e711b74785/26fa80a0-1164-42d6-9286-45e711b74785.jpeg?ixlib=js-3.8.0&bri=0&con=4&sat=0&high=0&shad=0&usm=0&rect=311%2C0%2C2780%2C3036",
               "formBarColor": "button-background",
               "headlineSize": 0,
               "logoPosition": "top-left",
@@ -2357,7 +2357,7 @@
             "id": "3de9dd16-c62f-4ff6-b6da-4f68d9ca7036",
             "data": {
               "text": "<p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><em>\"</em><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><em>I’m fed up with the direction our country is going: corruption, unnecessary wars, and a housing crisis that is tearing our communities apart. I’m not a career politician. I’m an engineer and an affordable housing activist. I'm running for Congress to put working families first, hold the powerful accountable, and fight to build a future we can actually be proud of.</em></strong><em>\"</em></span></p>",
-              "image": "/assets/images/image-54.png",
+              "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/b1f2db7b-b7f1-4511-a565-0b08c71bab4c/b1f2db7b-b7f1-4511-a565-0b08c71bab4c.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C28%2C2048%2C1171",
               "bgColor": "bg1",
               "buttons": [
                 {
@@ -2372,13 +2372,13 @@
               "marginTop": "top-large",
               "layoutType": "VIDEO",
               "imageBorder": "border",
-              "twoColImage": "/assets/images/image-55.png",
+              "twoColImage": "https://run.imgix.net/3dbc5473-3dbc-43cc-ad98-06b28b45b9a5/3d02fcca-38b5-464e-9410-e30df651b513/3d02fcca-38b5-464e-9410-e30df651b513.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=626%2C391%2C421%2C470",
               "bodyCopySize": 4,
               "imageAltText": "Introductory photo",
               "marginBottom": "bottom-large",
               "showHeadline": true,
               "showSignature": true,
-              "signatureImage": "/assets/images/image-56.png",
+              "signatureImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/d6b7e9a7-bf26-4b05-9b50-e261a1a91934/d6b7e9a7-bf26-4b05-9b50-e261a1a91934.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C2853%2C953",
               "showDescription": true,
               "showFeaturedLink": false,
               "signatureAltText": "Candidate signature",
@@ -2401,7 +2401,7 @@
           "0a94fe53-8471-4d48-9e87-797b35a755a1": {
             "id": "0a94fe53-8471-4d48-9e87-797b35a755a1",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg4",
@@ -2428,11 +2428,11 @@
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-57.jpg",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=1221%2C0%2C4901%2C4901",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
@@ -2637,7 +2637,7 @@
                   "openInNewTab": true
                 }
               ],
-              "ctaImage": "/assets/images/image-58.jpeg",
+              "ctaImage": "https://run.imgix.net/dbf516ea-8c59-417f-978c-1e2f17fdb7ae/6a067984-98c5-46b9-a3b4-e20340eaa0ba/6a067984-98c5-46b9-a3b4-e20340eaa0ba.jpeg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=743%2C0%2C6011%2C5304&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
               "ctaLayout": "image",
               "marginTop": "top-large",
               "shareText": "Share Now",
@@ -2724,7 +2724,7 @@
               "items": [
                 {
                   "id": "7a306fc8-9a87-4862-9426-b81036365556",
-                  "image": "/assets/images/image-59.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653964379818-istockphoto-1348963486-612x612-composite-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2732,7 +2732,7 @@
                 },
                 {
                   "id": "e8dba91d-dcbe-4882-8434-e7d59bbc6295",
-                  "image": "/assets/images/image-60.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653943826046-iStock-1153262754-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2740,7 +2740,7 @@
                 },
                 {
                   "id": "0f8d934e-8f24-48e9-9e8b-95f396f0e837",
-                  "image": "/assets/images/image-61.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653943944854--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943924142--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943909810-iStock-1316302354-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2748,7 +2748,7 @@
                 },
                 {
                   "id": "8edc9162-8f5e-40c7-b3f1-2bea2796bf70",
-                  "image": "/assets/images/image-59.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653964379818-istockphoto-1348963486-612x612-composite-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2756,7 +2756,7 @@
                 },
                 {
                   "id": "c992d223-a181-413a-803b-63377ae73296",
-                  "image": "/assets/images/image-60.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653943826046-iStock-1153262754-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2764,7 +2764,7 @@
                 },
                 {
                   "id": "c36d156b-e7c4-4f75-af63-95bcf6a36047",
-                  "image": "/assets/images/image-61.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653943944854--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943924142--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943909810-iStock-1316302354-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2772,7 +2772,7 @@
                 },
                 {
                   "id": "496fcbe9-c200-4664-9580-6fdc81641d5c",
-                  "image": "/assets/images/image-61.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653943944854--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943924142--415b7455-174b-4f9e-9d05-7c9dbda44202-1653943909810-iStock-1316302354-.jpg",
                   "title": "Endorser Name",
                   "subtitle": "Endorser Title",
                   "socialMedia": [],
@@ -2829,7 +2829,7 @@
                 {
                   "id": "ac01a890-f226-4fc9-951a-953741e8f741",
                   "bio": "<p><strong>Use this block to insert a person's bio,</strong> or multiple bios by clicking 'add bio' on the sidebar. See additional design options in the toggles on the sidebar.</p>",
-                  "image": "/assets/images/image-59.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653964379818-istockphoto-1348963486-612x612-composite-.jpg",
                   "title": "Person's Name",
                   "subtitle": "Person's Title",
                   "socialMedia": []
@@ -2881,7 +2881,7 @@
             "id": "7276a729-b39e-4861-9e35-a3cafc86db8b",
             "data": {
               "text": "<p><strong>Insert whatever text you want here.</strong> It could be about your campaign's main objective, or candidate's life and career. You could phrase it as a first-person quote by the candidate, or not!</p>",
-              "image": "/assets/images/image-62.jpg",
+              "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653539254769-iStock-1348963486---runcbt::0,cbl::89.26223776223776,cbw::524.4755244755245,cbh::300,d::1662850989909,o::https:--slash----slash--media.designedtorun.com--slash--415b7455-174b-4f9e-9d05-7c9dbda44202--slash--1653539254769-iStock-1348963486-.jpgrun--.jpg",
               "bgColor": "bg0",
               "buttons": [
                 {
@@ -2903,13 +2903,13 @@
               "marginTop": "top-large",
               "layoutType": "TWO",
               "imageBorder": "border",
-              "twoColImage": "/assets/images/image-63.jpg",
+              "twoColImage": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1654141305310-eye-for-ebony-3dqSZidOkvs-unsplash---runcbt::0.043402777777799884,cbl::231.53472222222223,cbw::239.93055555555554,cbh::299.9131944444444,d::1662850811159,o::https:--slash----slash--media.designedtorun.com--slash--415b7455-174b-4f9e-9d05-7c9dbda44202--slash--1654141305310-eye-for-ebony-3dqSZidOkvs-unsplash-.jpgrun--.jpg",
               "bodyCopySize": 10,
               "imageAltText": "Introductory photo",
               "marginBottom": "bottom-large",
               "showHeadline": true,
               "showSignature": false,
-              "signatureImage": "/assets/images/image-64.png",
+              "signatureImage": "https://run.imgix.net/2f4de000-2a5b-44b5-bd74-c7bb8bc65098/dcb01976-3328-4c1e-840b-4e4b14e6004b/dcb01976-3328-4c1e-840b-4e4b14e6004b.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C658%2C156&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
               "adjustImageSize": 0,
               "showDescription": true,
               "showFeaturedLink": true,
@@ -2938,13 +2938,13 @@
                 {
                   "id": "0290c937-93a9-4f75-a911-8e76d5cd2fb4",
                   "alt": "",
-                  "image": "/assets/images/image-65.png",
+                  "image": "https://run.imgix.net/3b4e68e4-1373-4304-932b-5836c9b65d33/bae95caa-21ef-489a-a784-c5a7de126f69/bae95caa-21ef-489a-a784-c5a7de126f69.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C2400%2C1600&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
                   "caption": ""
                 },
                 {
                   "id": "b8a39f78-eba8-48b5-ae7f-4a95130de125",
                   "alt": "",
-                  "image": "/assets/images/image-65.png",
+                  "image": "https://run.imgix.net/3b4e68e4-1373-4304-932b-5836c9b65d33/bae95caa-21ef-489a-a784-c5a7de126f69/bae95caa-21ef-489a-a784-c5a7de126f69.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C2400%2C1600&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
                   "caption": ""
                 }
               ],
@@ -2984,7 +2984,7 @@
               "items": [
                 {
                   "id": "39bdea53-978b-47e7-b06b-fa0378a1353f",
-                  "image": "/assets/images/image-59.jpg",
+                  "image": "https://media.designedtorun.com/415b7455-174b-4f9e-9d05-7c9dbda44202/1653964379818-istockphoto-1348963486-612x612-composite-.jpg",
                   "quote": "<p class=\"font-large\"><strong>\"Use this block to insert a testimonial quote,</strong> or multiple quotes by clicking 'new item' on the sidebar. You can also use this component for a candidate slate by turning off 'display name bars' and adding a headline in the editor. See additional design options in the toggles on the sidebar.\"</p>",
                   "title": "Endorser Name"
                 }
@@ -3035,22 +3035,22 @@
               "items": [
                 {
                   "id": "db4b8606-e878-4f5b-a464-a892d0e70668",
-                  "image": "/assets/images/image-66.webp",
+                  "image": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/2e89385d-9f52-4eb7-94d2-f9f8641f2346/2e89385d-9f52-4eb7-94d2-f9f8641f2346.webp?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C533%2C412&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
                   "imageAltText": "Logo"
                 },
                 {
                   "id": "fa9fc151-366f-4409-b2fa-deea712885f6",
-                  "image": "/assets/images/image-67.webp",
+                  "image": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/add80e95-512f-490b-8049-97c52cf88ddb/add80e95-512f-490b-8049-97c52cf88ddb.webp?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C637%2C456&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
                   "imageAltText": "Logo"
                 },
                 {
                   "id": "daf79326-b974-4952-86b7-b1f276870ac6",
-                  "image": "/assets/images/image-68.webp",
+                  "image": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/81eadf51-5312-4fbf-9227-2af2c1b85d2c/81eadf51-5312-4fbf-9227-2af2c1b85d2c.webp?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C603%2C313&auto=compress%2Cformat&fit=fillmax&w=640&q=75",
                   "imageAltText": "Logo"
                 },
                 {
                   "id": "f2009231-05bb-48a7-9176-2b312a95213d",
-                  "image": "/assets/images/image-69.webp",
+                  "image": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/4bfaf095-5cc7-4d02-a30d-d41ec8bb25c0/4bfaf095-5cc7-4d02-a30d-d41ec8bb25c0.webp?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C480%2C405&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
                   "imageAltText": "Logo"
                 }
               ],
@@ -3124,7 +3124,7 @@
           "6b7229c8-340a-4674-8f62-0855e0d8ab6f": {
             "id": "6b7229c8-340a-4674-8f62-0855e0d8ab6f",
             "data": {
-              "image": "/assets/images/image-70.jpeg",
+              "image": "https://run.imgix.net/16a66b13-6e6e-4e6a-8d95-a2cfd4a1f1b1/933cfe10-0ba8-4161-808b-b179730bc30b/933cfe10-0ba8-4161-808b-b179730bc30b.jpeg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C203%2C8192%2C4686&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
               "items": [
                 {
                   "id": "80dfbe9c-0951-413b-8e77-034ac7d74f5c",
@@ -3242,7 +3242,7 @@
                   "openInNewTab": true
                 }
               ],
-              "ctaImage": "/assets/images/image-71.jpg",
+              "ctaImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/feccf92f-a358-45e6-8a01-b1c5737229c4/feccf92f-a358-45e6-8a01-b1c5737229c4.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C0%2C3776%2C5664",
               "ctaLayout": "image",
               "marginTop": "top-large",
               "shareText": "Share Now",
@@ -3305,7 +3305,7 @@
               "showEyebrow": false,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-37.jpeg",
+              "desktopImage": "https://run.imgix.net/415b7455-174b-4f9e-9d05-7c9dbda44202/26fa80a0-1164-42d6-9286-45e711b74785/26fa80a0-1164-42d6-9286-45e711b74785.jpeg?ixlib=js-3.8.0&bri=0&con=4&sat=0&high=0&shad=0&usm=0&rect=311%2C0%2C2780%2C3036",
               "formBarColor": "button-background",
               "headlineSize": 0,
               "logoPosition": "top-left",
@@ -3594,7 +3594,7 @@
           "7ff361a1-3ab3-42cd-a039-8003799787b6": {
             "id": "7ff361a1-3ab3-42cd-a039-8003799787b6",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg4",
@@ -3621,11 +3621,11 @@
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-57.jpg",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=1221%2C0%2C4901%2C4901",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
@@ -3684,7 +3684,7 @@
           "e4a0836c-6977-48e4-901e-de6d59638853": {
             "id": "e4a0836c-6977-48e4-901e-de6d59638853",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg1",
@@ -3828,7 +3828,7 @@
           "c8168ed1-021d-4356-95c4-b8f0db884943": {
             "id": "c8168ed1-021d-4356-95c4-b8f0db884943",
             "data": {
-              "logo": "/assets/images/image-44.png",
+              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
               "action": true,
               "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
               "bgColor": "bg4",
@@ -3850,17 +3850,17 @@
               "buttonType": "underlined",
               "headlineOn": true,
               "layoutType": "nav_only",
-              "mobileLogo": "/assets/images/image-45.png",
+              "mobileLogo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61/c1baa1e3-c3f9-41e5-85c2-83a2baf25e61.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1320%2C6250%2C3441",
               "bigLogoSize": 0,
               "buttonColor": "button-background",
               "description": "Add your description here",
               "eyebrowSize": 0,
               "logoAltText": "",
-              "mobileImage": "/assets/images/image-46.avif",
+              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/9da6ae8f-7986-4045-9e8b-4484be5efe9a/9da6ae8f-7986-4045-9e8b-4484be5efe9a.avif?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=658%2C0%2C1390%2C1390",
               "showEyebrow": true,
               "adjustLayout": "standard",
               "alignContent": "content-center",
-              "desktopImage": "/assets/images/image-47.jpg",
+              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
               "formBarColor": "button-background",
               "headlineSize": 2,
               "logoPosition": "top-left",
