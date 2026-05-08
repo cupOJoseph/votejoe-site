@@ -9,10 +9,10 @@
               "state": {
                 "data": {
                   "pinstripes": true,
-                  "fontCategory": "Sans-serif (Bold)",
-                  "fontBody": "Bitter",
-                  "fontHeader": "Works Sans",
-                  "fontButton": "Bitter",
+                  "fontCategory":"Sans-serif (Black)",
+                  "fontBody":"Bitter",
+                  "fontHeader":"Works Sans",
+                  "fontButton":"Bitter",
                   "corners": "NONE",
                   "paletteName": "flag1"
                 },
@@ -305,13 +305,13 @@
             }
           },
           "favicon": null,
-          "fontBody": "Bitter",
+          "fontBody":"Bitter",
           "htmlBody": "",
           "postTags": {},
           "published": true,
           "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-          "fontButton": "Bitter",
-          "fontHeader": "Works Sans",
+          "fontButton":"Bitter",
+          "fontHeader":"Works Sans",
           "htmlFooter": "",
           "htmlHeader": "",
           "schemaData": {
@@ -337,7 +337,7 @@
           },
           "shareImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/77317ea9-69a1-460a-88ee-4da1cd8d32f0/77317ea9-69a1-460a-88ee-4da1cd8d32f0.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C57%2C2048%2C1072",
           "shareTitle": "Joe Schiarizzi for Congress",
-          "fontCategory": "Sans-serif (Bold)",
+          "fontCategory":"Sans-serif (Black)",
           "pageStructure": {
             "HOME": [
               "6dd54cc0-bf57-4ad5-ab45-177056936065"
