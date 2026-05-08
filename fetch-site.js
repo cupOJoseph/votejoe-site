@@ -4,6 +4,7 @@ const { execFileSync } = require("child_process");
 
 const ROOT = "https://www.votejoe.org";
 const OUT = __dirname;
+const nextDataRe = /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/;
 const routes = [
   "",
   "template",
@@ -39,9 +40,15 @@ function pageFile(route) {
 }
 
 function normalizeHtml(html) {
+  const nextDataScripts = [];
   return html
+    .replace(nextDataRe, (script) => {
+      const index = nextDataScripts.push(script) - 1;
+      return `__NEXT_DATA_${index}__`;
+    })
     .replace(/https:\/\/www\.votejoe\.org/g, "")
-    .replace(/https:\/\/votejoe\.org/g, "");
+    .replace(/https:\/\/votejoe\.org/g, "")
+    .replace(/__NEXT_DATA_(\d+)__/g, (_match, index) => nextDataScripts[Number(index)]);
 }
 
 for (const route of routes) {
@@ -62,12 +69,17 @@ for (const ref of staticRefs) {
   curl(`${ROOT}${ref}`, path.join(OUT, "public", ref));
 }
 
+const extraStaticRefs = ["/img/site/pinstripes.png"];
+
+for (const ref of extraStaticRefs) {
+  curl(`${ROOT}${ref}`, path.join(OUT, "public", ref));
+}
+
 const imageUrls = new Map();
 let imageIndex = 1;
 const nextImageUrls = new Map();
 let nextImageIndex = 1;
 const imageRe = /https:\/\/(?:run\.imgix\.net|media\.designedtorun\.com)[^"' <>)\\]+/g;
-const nextDataRe = /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/;
 
 function imageExtFromUrl(rawUrl) {
   try {
@@ -123,6 +135,7 @@ for (const route of routes) {
   let nextData = null;
   html = html.replace(nextDataRe, (_full, data) => {
     nextData = JSON.parse(data);
+    rewriteValue(JSON.parse(JSON.stringify(nextData)));
     return "__NEXT_DATA_PLACEHOLDER__";
   });
   html = html
@@ -131,9 +144,7 @@ for (const route of routes) {
   if (nextData) {
     html = html.replace(
       "__NEXT_DATA_PLACEHOLDER__",
-      `<script id="__NEXT_DATA__" type="application/json">${escapeScriptJson(
-        JSON.stringify(rewriteValue(nextData)),
-      )}</script>`,
+      `<script id="__NEXT_DATA__" type="application/json">${escapeScriptJson(JSON.stringify(nextData))}</script>`,
     );
   }
   fs.writeFileSync(file, html);
@@ -163,6 +174,7 @@ fs.writeFileSync(
       fetchedAt: new Date().toISOString(),
       routes,
       staticRefs: [...staticRefs],
+      extraStaticRefs,
       images: [...imageUrls.entries()].map(([source, local]) => ({ source, local })),
       nextImages: [...nextImageUrls.entries()].map(([source, local]) => ({ source, local })),
     },

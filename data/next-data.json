@@ -17,7 +17,7 @@
                   "paletteName": "flag1"
                 },
                 "dataUpdateCount": 1,
-                "dataUpdatedAt": 1777860087933,
+                "dataUpdatedAt": 1778160619692,
                 "error": null,
                 "errorUpdateCount": 0,
                 "errorUpdatedAt": 0,
@@ -197,7 +197,7 @@
                   }
                 },
                 "dataUpdateCount": 1,
-                "dataUpdatedAt": 1777860087970,
+                "dataUpdatedAt": 1778160619752,
                 "error": null,
                 "errorUpdateCount": 0,
                 "errorUpdatedAt": 0,
@@ -231,7 +231,7 @@
                   "updatedAt": "1900-01-01T00:00:00.000Z"
                 },
                 "dataUpdateCount": 1,
-                "dataUpdatedAt": 1777860087977,
+                "dataUpdatedAt": 1778160619761,
                 "error": null,
                 "errorUpdateCount": 0,
                 "errorUpdatedAt": 0,
@@ -317,7 +317,7 @@
           "schemaData": {
             "active": "person",
             "person": {
-              "url": "",
+              "url": "https://votejoe.org",
               "@type": "Person",
               "image": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/f0848d4c-be21-4177-b334-77690faecdad/f0848d4c-be21-4177-b334-77690faecdad.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=197%2C47%2C817%2C692",
               "sameAs": [
@@ -1133,7 +1133,7 @@
           "67b68adb-e352-481a-9b18-9a69d192302c": {
             "id": "67b68adb-e352-481a-9b18-9a69d192302c",
             "data": {
-              "text": "<h2>About Joe</h2><span class=\"image image-framed image-left image-tilt-left\" style=\"width: 37%;\"><span class=\"image-inner-wrapper\"><img src=\"https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/02d1e91a-f407-48c9-b4ff-c7c34d77cb59/02d1e91a-f407-48c9-b4ff-c7c34d77cb59.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=2122%2C1009%2C3574%2C3162&w=1500\" alt=\"\" caption=\"\" align=\"left\" alignwidth=\"37\" tiltdirection=\"left\" variant=\"framed\"></span><span class=\"caption\" style=\"display: none;\"></span></span><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe Schiarizzi is an inventor, affordable housing activist, community organizer running for Congress in Virginia's 7th District.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">As a regional lead for Yimbys of Nova, he has spent years in Virginia fighting for the specific reforms that actually get more affordable homes built. Joe chaired the Falls Church Environmental Sustainability Council, co-founded Bike Falls Church &amp; Falls Church Forward, and is a member of Arlington Young Democrats. He holds two patents, earned degrees in Naval Science &amp; Computer Science, and has conducted research on making computers more energy efficient. Joe founded Solarpunk VC, an investment syndicate that funds climate-focused startups and small businesses in Virginia, because he believes solving the climate crisis and the housing crisis go hand in hand.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Growing up, Joe learned the value of hard work early. Joe's father was a union plumber and a Teamster in Local 25, and his mother worked the night shift at UPS loading boxes so their family could have healthcare. That's why Joe is running on a concrete, passable housing plan that uses existing federal tools to unlock affordable housing across the region.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe is running on three pillars: </span><br></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Affordable Housing:</u> </strong>Declare a national housing emergency and fight for supply-side reforms that get affordable homes built near transit and jobs.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Sustainability</u>: </strong>Confront the climate crisis by investing in clean energy, expanding public transit, and holding polluters to higher standards.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Accountability</u>: </strong>Stand up to this corrupt administration and impeach President Trump on day 1.</span></p></li></ol>",
+              "text": "<h2>About Joe</h2><span class=\"image image-framed image-left image-tilt-left\" style=\"width: 37%;\"><span class=\"image-inner-wrapper\"><img src=\"https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/02d1e91a-f407-48c9-b4ff-c7c34d77cb59/02d1e91a-f407-48c9-b4ff-c7c34d77cb59.jpg?ixlib=js-3.8.0&amp;bri=0&amp;con=0&amp;sat=0&amp;high=0&amp;shad=0&amp;usm=0&amp;rect=2122%2C1009%2C3574%2C3162&amp;w=1500\" alt=\"\" caption=\"\" align=\"left\" alignwidth=\"37\" tiltdirection=\"left\" variant=\"framed\"></span><span class=\"caption\" style=\"display: none;\"></span></span><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe Schiarizzi is an inventor, affordable housing activist, community organizer running for Congress in Virginia's 7th District.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">As a regional lead for Yimbys of Nova, he has spent years in Virginia fighting for the specific reforms that actually get more affordable homes built. Joe chaired the Falls Church Environmental Sustainability Council, co-founded Bike Falls Church &amp; Falls Church Forward, and is a member of Arlington Young Democrats. He holds two patents, earned degrees in Naval Science &amp; Computer Science, and has conducted research on making computers more energy efficient. Joe founded Solarpunk VC, an investment syndicate that funds climate-focused startups and small businesses in Virginia, because he believes solving the climate crisis and the housing crisis go hand in hand.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Growing up, Joe learned the value of hard work early. Joe's father was a union plumber and a Teamster in Local 25, and his mother worked the night shift at UPS loading boxes so their family could have healthcare. That's why Joe is running on a concrete, passable housing plan that uses existing federal tools to unlock affordable housing across the region.</span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe is running on three pillars: </span><br></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Affordable Housing:</u> </strong>Declare a national housing emergency and fight for supply-side reforms that get affordable homes built near transit and jobs.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Sustainability</u>: </strong>Confront the climate crisis by investing in clean energy, expanding public transit, and holding polluters to higher standards.</span></p><p></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><u>Accountability</u>: </strong>Stand up to this corrupt administration and impeach President Trump on day 1.</span></p></li></ol>",
               "bgColor": "bg4",
               "eyebrow": "Eyebrow Text Here",
               "headline": "Headline Text Here",
@@ -4109,7 +4109,7 @@
   "query": {
     "domain": "www.votejoe.org"
   },
-  "buildId": "UFlkZr_YlCNdgeVI7AE67",
+  "buildId": "20gW_cNdyOUJHg_htN9mT",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gsp": true,
