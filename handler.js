@@ -129,37 +129,48 @@ function isEmail(email) {
 }
 
 async function saveEmailSignup(email, req) {
-  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
-  if (!url || !token) {
-    const err = new Error("Email storage is not configured.");
-    err.statusCode = 503;
-    throw err;
-  }
-
   const timestamp = new Date().toISOString();
   const id = crypto.createHash("sha256").update(email).digest("hex");
   const ip = req.headers["x-forwarded-for"]?.split(",")[0]?.trim() || req.socket.remoteAddress || "";
   const userAgent = req.headers["user-agent"] || "";
   const referrer = req.headers.referer || "";
+  const record = { email, createdAt: timestamp, id, ip, userAgent, referrer };
 
-  const response = await fetch(`${url.replace(/\/$/, "")}/pipeline`, {
-    method: "POST",
-    headers: {
-      authorization: `Bearer ${token}`,
-      "content-type": "application/json",
-    },
-    body: JSON.stringify([
-      ["HSET", `email_signup:${id}`, "email", email, "createdAt", timestamp, "ip", ip, "userAgent", userAgent, "referrer", referrer],
-      ["ZADD", "email_signups", Date.now(), id],
-    ]),
-  });
+  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (url && token) {
+    const response = await fetch(`${url.replace(/\/$/, "")}/pipeline`, {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+      },
+      body: JSON.stringify([
+        ["HSET", `email_signup:${id}`, "email", email, "createdAt", timestamp, "ip", ip, "userAgent", userAgent, "referrer", referrer],
+        ["ZADD", "email_signups", Date.now(), id],
+      ]),
+    });
 
-  if (!response.ok) {
-    const err = new Error("Email storage request failed.");
-    err.statusCode = 502;
-    throw err;
+    if (!response.ok) {
+      const err = new Error("Email storage request failed.");
+      err.statusCode = 502;
+      throw err;
+    }
+    return;
   }
+
+  if (process.env.BLOB_READ_WRITE_TOKEN) {
+    const { put } = await import("@vercel/blob");
+    await put(`email-signups/${timestamp.replace(/[:.]/g, "-")}-${id}.json`, JSON.stringify(record, null, 2), {
+      access: "private",
+      contentType: "application/json",
+    });
+    return;
+  }
+
+  const err = new Error("Email storage is not configured.");
+  err.statusCode = 503;
+  throw err;
 }
 
 async function handleEmailSignup(req, res) {

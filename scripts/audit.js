@@ -42,6 +42,9 @@ assert(source.includes("KV_REST_API_URL"), "Missing Vercel KV REST URL support."
 assert(source.includes("KV_REST_API_TOKEN"), "Missing Vercel KV REST token support.");
 assert(source.includes("UPSTASH_REDIS_REST_URL"), "Missing Upstash REST URL fallback support.");
 assert(source.includes("UPSTASH_REDIS_REST_TOKEN"), "Missing Upstash REST token fallback support.");
+assert(source.includes("BLOB_READ_WRITE_TOKEN"), "Missing Vercel Blob token support.");
+assert(source.includes("@vercel/blob"), "Missing Vercel Blob SDK usage.");
+assert(source.includes("email-signups/"), "Missing private email signup blob path.");
 assert(source.includes("email_signup:"), "Missing durable signup hash write.");
 assert(source.includes("email_signups"), "Missing signup index write.");
 assert(source.includes("joe-header.jpg"), "Missing Joe header image reference.");
