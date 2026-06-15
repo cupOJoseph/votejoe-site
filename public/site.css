@@ -18,6 +18,7 @@ body {
   color: var(--ink);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -47,6 +48,7 @@ a {
   margin: 0 auto;
   max-width: 880px;
   padding: clamp(28px, 6vw, 72px) 20px 64px;
+  width: 100%;
 }
 
 .socials {
@@ -91,6 +93,8 @@ a {
 .letter {
   background: #ffffff;
   border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(23, 32, 51, 0.08);
   padding: clamp(24px, 5vw, 56px);
 }
 
@@ -111,6 +115,7 @@ h1 {
   letter-spacing: 0;
   line-height: 0.98;
   margin: 0 0 28px;
+  overflow-wrap: break-word;
 }
 
 .letter p {
@@ -118,6 +123,7 @@ h1 {
   font-size: clamp(18px, 2.2vw, 22px);
   line-height: 1.58;
   margin: 0 0 20px;
+  overflow-wrap: break-word;
 }
 
 .letter .signature {
@@ -196,16 +202,79 @@ h1 {
 }
 
 @media (max-width: 640px) {
+  .hero {
+    max-height: none;
+  }
+
   .hero img {
-    height: 58vh;
-    object-position: 58% 18%;
+    height: clamp(300px, 44svh, 430px);
+    object-position: 61% top;
+  }
+
+  .content {
+    padding: 18px 12px 40px;
+  }
+
+  .socials {
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .social-link {
+    height: 40px;
+    width: 40px;
+  }
+
+  .social-link svg {
+    height: 19px;
+    width: 19px;
   }
 
   .letter {
-    padding: 24px 18px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 24px 17px 26px;
+  }
+
+  .kicker {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-size: clamp(28px, 8.1vw, 34px);
+    line-height: 1.06;
+    margin-bottom: 22px;
+  }
+
+  .letter p {
+    font-size: 17px;
+    line-height: 1.54;
+    margin-bottom: 17px;
+  }
+
+  .letter .signature {
+    font-size: 20px;
+    margin-top: 22px;
+  }
+
+  .email-form {
+    margin-top: 26px;
+    padding-top: 22px;
   }
 
   .email-row {
     grid-template-columns: 1fr;
+  }
+
+  .email-row input,
+  .email-row button {
+    min-height: 48px;
+  }
+
+  .email-row button {
+    width: 100%;
   }
 }

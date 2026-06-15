@@ -59,11 +59,11 @@ function pageHtml() {
       <article class="letter">
         <p class="kicker">Campaign update</p>
         <h1 id="letter-title">Thank you for being part of this movement.</h1>
-        <p>Thank you to the hundreds of people who donated, volunteered, and joined this movement.</p>
-        <p>This campaign was always bigger than me or any one person. It was part of a larger fight for environmental sustainability, accountable government, and leadership that treats the housing crisis with the urgency our communities deserve.</p>
-        <p>Due to the Supreme Court's decision to throw out the district I was running in, overturning the will of the people and the millions of Virginians who voted under the new maps, I am suspending my campaign indefinitely.</p>
-        <p>Every dollar we raised will be returned to donors. As other candidates use campaign funds to advance themselves, remember this: our campaign raised a competitive amount, and we are returning it all.</p>
-        <p>Thank you. I will never stop organizing and working toward a future we can be proud of.</p>
+        <p>Thank you to the thousands of people who donated, volunteered, petitioned, and joined this movement.</p>
+        <p>This campaign was always bigger than me or any one person. It was part of a larger fight for environmental sustainability, accountable government, and leadership that treats the housing crisis with the urgency our communities deserve. It was an honor to be able to run with your support.</p>
+        <p>Due to the Supreme Court's decision to throw out the district I was running in, overturning the will of the people and the millions of Virginians who voted for the new maps, I am suspending my campaign indefinitely. I will not pursue any office this year.</p>
+        <p>Every dollar my campaign raised will be returned to donors. As other candidates use campaign funds to advance themselves, remember this for the future: our campaign raised nearly a million dollars in just a few weeks, and I am returning it all.</p>
+        <p>Thank you. I will never stop organizing, pushing for more affordable housing across Virginia, and working towards a future we can be proud of.</p>
         <p class="signature">Joe Schiarizzi</p>
 
         <form class="email-form" data-email-form>
