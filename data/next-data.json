@@ -9,10 +9,10 @@
               "state": {
                 "data": {
                   "pinstripes": true,
-                  "fontCategory":"Sans-serif (Black)",
-                  "fontBody":"Bitter",
-                  "fontHeader":"Works Sans",
-                  "fontButton":"Bitter",
+                  "fontCategory": "Sans-serif (Black)",
+                  "fontBody": "Bitter",
+                  "fontHeader": "Works Sans",
+                  "fontButton": "Bitter",
                   "corners": "NONE",
                   "paletteName": "flag1"
                 },
@@ -295,7 +295,7 @@
         },
         "SiteContent": {
           "id": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-          "popup": true,
+          "popup": false,
           "uiCopy": {
             "skipToContent": "Skip navigation menu",
             "languageSwitcher": {
@@ -305,13 +305,13 @@
             }
           },
           "favicon": null,
-          "fontBody":"Bitter",
+          "fontBody": "Bitter",
           "htmlBody": "",
           "postTags": {},
           "published": true,
           "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-          "fontButton":"Bitter",
-          "fontHeader":"Works Sans",
+          "fontButton": "Bitter",
+          "fontHeader": "Works Sans",
           "htmlFooter": "",
           "htmlHeader": "",
           "schemaData": {
@@ -337,7 +337,7 @@
           },
           "shareImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/77317ea9-69a1-460a-88ee-4da1cd8d32f0/77317ea9-69a1-460a-88ee-4da1cd8d32f0.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C57%2C2048%2C1072",
           "shareTitle": "Joe Schiarizzi for Congress",
-          "fontCategory":"Sans-serif (Black)",
+          "fontCategory": "Sans-serif (Black)",
           "pageStructure": {
             "HOME": [
               "6dd54cc0-bf57-4ad5-ab45-177056936065"
@@ -352,13 +352,10 @@
               "0dc0a6f8-65d6-478b-b2d0-bf074f0fb2ae"
             ],
             "FOOTER_NAV": [
-              "f3d70eab-1dc2-4068-8a38-2e5edcbcf473",
               "e00197ac-9f50-4a02-98b6-5393bda52af1",
               "e4ae79bc-9a07-4ddd-a062-b2752885bf38"
             ],
-            "FEATURED_NAV": [
-              "43b4db8c-1ec8-4d4b-9494-6a5e6491ee7a"
-            ],
+            "FEATURED_NAV": [],
             "MAIN_NAVIGATION": [
               "7ac24613-c9b7-40e4-a8af-093e06257c0a",
               "88a40c15-3ca8-4a13-b571-4935a9f64bdb"
@@ -505,40 +502,6 @@
             "lastTranslatedAt": null,
             "shareDescription": null
           },
-          "f3d70eab-1dc2-4068-8a38-2e5edcbcf473": {
-            "id": "f3d70eab-1dc2-4068-8a38-2e5edcbcf473",
-            "url": "https://secure.actblue.com/donate/vote-joe",
-            "slug": "donate2",
-            "type": null,
-            "title": "Donate",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "htmlBody": null,
-            "isHidden": false,
-            "parentId": null,
-            "createdAt": "2026-04-25T03:34:16.845566+00:00",
-            "isDefault": false,
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "htmlFooter": null,
-            "htmlHeader": null,
-            "shareImage": null,
-            "shareTitle": null,
-            "externalLink": null,
-            "openInNewTab": true,
-            "primaryPageId": null,
-            "blockStructure": {
-              "HERO": [
-                "0a94fe53-8471-4d48-9e87-797b35a755a1"
-              ],
-              "FOOTER": [
-                "e7a841b5-4ee1-428a-8778-0e5e802d7970"
-              ],
-              "CONTENT": []
-            },
-            "lastTranslatedAt": null,
-            "shareDescription": null
-          },
           "e00197ac-9f50-4a02-98b6-5393bda52af1": {
             "id": "e00197ac-9f50-4a02-98b6-5393bda52af1",
             "url": null,
@@ -637,15 +600,12 @@
               "HERO": [
                 "82c49e8e-c043-4575-b370-41703fba56c0"
               ],
-              "POPUP": [
-                "6b7229c8-340a-4674-8f62-0855e0d8ab6f"
-              ],
+              "POPUP": [],
               "FOOTER": [
                 "e75cbd57-4d85-4838-9538-aaf8b83b881d"
               ],
               "CONTENT": [
                 "3de9dd16-c62f-4ff6-b6da-4f68d9ca7036",
-                "b179ce3f-6c5d-4bd4-913b-feb091ea3a26",
                 "5a415169-f5a3-4381-9ebc-54db83c0c200"
               ]
             },
@@ -734,7 +694,7 @@
             "title": "Crypto Policy",
             "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
             "deleted": false,
-            "htmlBody": "<script id=\"widget-script\">  !function t(e,i,n,g,x,r,s,d,a,y,w,q,f,u,t,c,o){var p=\"widgetOptions\";e[p]?(e[p]=e[p].length?e[p]:[e[p]],  e[p].push({id:r,apiUserUuid:x,domain:g,buttonId:d,scriptId:s,uiVersion:a,  campaignId:q,donationFlow:y,fundraiserId:w,preselectedCryptocurrencies:f,donationFormTitle:u,iframeTitle:t}))  :e[p]={id:r,apiUserUuid:x,domain:g,buttonId:d,scriptId:s,uiVersion:a,  campaignId:q,donationFlow:y,fundraiserId:w,preselectedCryptocurrencies:f,donationFormTitle:u,iframeTitle:t},  (c=i.createElement(n)).src=[g,\"/widget/script.js\"].join(\"\"),c.async=1,  (o=i.getElementById(s)).parentNode.insertBefore(c,o)  }(window,document,\"script\",\"https://form.contributions.shift4payments.com\",\"e6cf7d18-41b6-4a6c-954a-338578fd90b0\",  \"1189136786\",\"widget-script\",\"widget-button\",  \"2\", \"crypto\", \"\", \"\",  undefined, undefined, \"\");</script>",
+            "htmlBody": "",
             "isHidden": false,
             "parentId": null,
             "createdAt": "2026-04-06T15:06:04.888788+00:00",
@@ -756,7 +716,6 @@
                 "857284c9-57e9-4930-a367-c1aa3f956cec"
               ],
               "CONTENT": [
-                "98d6fcfe-2837-4fa5-a2e0-808c642f7ff6",
                 "abf2a5de-6824-41af-a927-1f2ac79c7629"
               ]
             },
@@ -800,40 +759,6 @@
             "lastTranslatedAt": null,
             "shareDescription": null
           },
-          "43b4db8c-1ec8-4d4b-9494-6a5e6491ee7a": {
-            "id": "43b4db8c-1ec8-4d4b-9494-6a5e6491ee7a",
-            "url": "https://secure.actblue.com/donate/vote-joe",
-            "slug": "donate",
-            "type": null,
-            "title": "Donate",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "htmlBody": null,
-            "isHidden": false,
-            "parentId": null,
-            "createdAt": "2026-04-06T15:06:04.888788+00:00",
-            "isDefault": false,
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "htmlFooter": null,
-            "htmlHeader": null,
-            "shareImage": null,
-            "shareTitle": null,
-            "externalLink": null,
-            "openInNewTab": true,
-            "primaryPageId": null,
-            "blockStructure": {
-              "HERO": [
-                "7ff361a1-3ab3-42cd-a039-8003799787b6"
-              ],
-              "FOOTER": [
-                "c42a4b1e-074f-46c2-a417-d470f9967644"
-              ],
-              "CONTENT": []
-            },
-            "lastTranslatedAt": null,
-            "shareDescription": null
-          },
           "e4ae79bc-9a07-4ddd-a062-b2752885bf38": {
             "id": "e4ae79bc-9a07-4ddd-a062-b2752885bf38",
             "url": null,
@@ -865,8 +790,7 @@
               ],
               "CONTENT": [
                 "855bb1dc-1d34-45bc-a2c8-2bc23d10f609",
-                "d3d7d929-51fb-4e78-b46a-3dd30b557d08",
-                "683852cd-f340-4c61-80e0-16f6ddd2ae04"
+                "d3d7d929-51fb-4e78-b46a-3dd30b557d08"
               ]
             },
             "lastTranslatedAt": null,
@@ -1075,34 +999,6 @@
             "primaryBlockId": null,
             "lastTranslatedAt": null
           },
-          "c42a4b1e-074f-46c2-a417-d470f9967644": {
-            "id": "c42a4b1e-074f-46c2-a417-d470f9967644",
-            "data": {
-              "info": "<p>Have a question? Don't be a stranger, contact us directly: team@votejoe.org</p><p><br></p>",
-              "bgColor": "bg4",
-              "marginTop": "top-large",
-              "disclaimer": "<p>Paid for by Schiarizzi for Congress</p>",
-              "hideRunLink": true,
-              "showPaidFor": true,
-              "marginBottom": "bottom-large",
-              "poweredByText": "Powered by",
-              "showDescription": true,
-              "shouldShowRunLogo": true
-            },
-            "type": "FOOTER",
-            "title": "Footer",
-            "pageId": "43b4db8c-1ec8-4d4b-9494-6a5e6491ee7a",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-06T15:06:04.888788+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "ffdd2b7b-25a9-40f3-90f6-96a7f6a02a11",
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
           "5a415169-f5a3-4381-9ebc-54db83c0c200": {
             "id": "5a415169-f5a3-4381-9ebc-54db83c0c200",
             "data": {
@@ -1157,34 +1053,6 @@
             "published": true,
             "updatedAt": "2026-04-27T17:36:20.255714+00:00",
             "linkedBlockId": "a2a669d9-1e56-4270-93e7-11736934e6ee",
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
-          "e7a841b5-4ee1-428a-8778-0e5e802d7970": {
-            "id": "e7a841b5-4ee1-428a-8778-0e5e802d7970",
-            "data": {
-              "info": "<p>Have a question? Don't be a stranger, contact us directly: team@votejoe.org</p><p><br></p>",
-              "bgColor": "bg4",
-              "marginTop": "top-large",
-              "disclaimer": "<p>Paid for by Schiarizzi for Congress</p>",
-              "hideRunLink": true,
-              "showPaidFor": true,
-              "marginBottom": "bottom-large",
-              "poweredByText": "Powered by",
-              "showDescription": true,
-              "shouldShowRunLogo": true
-            },
-            "type": "FOOTER",
-            "title": "Footer",
-            "pageId": "f3d70eab-1dc2-4068-8a38-2e5edcbcf473",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-25T03:34:16.845566+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "ffdd2b7b-25a9-40f3-90f6-96a7f6a02a11",
             "postStructure": [],
             "primaryBlockId": null,
             "lastTranslatedAt": null
@@ -1342,92 +1210,6 @@
             "updatedAt": "2026-04-27T17:36:20.255714+00:00",
             "linkedBlockId": "b665b7a0-82b5-4edc-b578-07650d20d4fb",
             "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
-          "b179ce3f-6c5d-4bd4-913b-feb091ea3a26": {
-            "id": "b179ce3f-6c5d-4bd4-913b-feb091ea3a26",
-            "data": {
-              "items": [
-                {
-                  "id": "80dfbe9c-0951-413b-8e77-034ac7d74f5c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=10",
-                  "amount": 10
-                },
-                {
-                  "id": "f7f964bc-5f25-4768-aac1-9048f3ce3351",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=25",
-                  "amount": 25
-                },
-                {
-                  "id": "e56b905b-52cf-4c91-aea1-e993adabafa5",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=50",
-                  "amount": 50
-                },
-                {
-                  "id": "a9b76e22-29a6-46f4-8061-c41b0b120b1b",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=100",
-                  "amount": 100
-                },
-                {
-                  "id": "391ef97b-292c-438a-b6c1-82ead2b9193c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=250",
-                  "amount": 250
-                },
-                {
-                  "id": "15510dcc-c475-46be-8e93-e8c1cc9272bd",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=3500",
-                  "amount": null
-                }
-              ],
-              "bgColor": "bg3",
-              "eyebrow": "Support Our Campaign",
-              "headline": "<p>Join our Campaign:</p>",
-              "marginTop": "top-large",
-              "headlineOn": true,
-              "layoutType": "STANDARD",
-              "numColumns": "two-columns",
-              "description": "Your contributions help us reach more voters.",
-              "donateLabel": "Donate:",
-              "showEyebrow": false,
-              "marginBottom": "bottom-large",
-              "showDisclaimer": false,
-              "otherButtonText": "Other",
-              "showDescription": false,
-              "disclaimerDonate": "<p><strong>This is placeholder copy - please change it or hide this section via the sidebar toggle button. </strong>ActBlue's Express Lane service will process donations immediately upon someone clicking your Run site donation buttons and therefore requires a disclaimer which you can <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://support.actblue.com/campaigns/actblue-express/actblue-express-lane/\">read about here</a>. </p>"
-            },
-            "type": "DONATE",
-            "title": "Donate",
-            "pageId": "6dd54cc0-bf57-4ad5-ab45-177056936065",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": "EXTRA",
-            "createdAt": "2026-03-09T21:02:47.549+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "89532af7-9bcb-43b1-b443-8e32867d829e",
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
-          "98d6fcfe-2837-4fa5-a2e0-808c642f7ff6": {
-            "id": "98d6fcfe-2837-4fa5-a2e0-808c642f7ff6",
-            "data": {
-              "html": "<div style=\"display: flex; flex-direction: column; align-items: center; gap: 20px;\">\n  <button id=\"widget-button\" style=\"color: var(--color-bg3-text); background-color: var(--color-bg3); font-size: 18px; transform: scale(1); transition: background-color 0.15s, color 0.15s, transform 0.15s; border: none; cursor: pointer; padding: 16px 32px; border-radius: 0px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-family: inherit;\"\n    onmouseover=\"this.style.transform='scale(1.05)'\"\n    onmouseout=\"this.style.transform='scale(1)'\">\n    Donate Crypto Now\n  </button>\n\n  <div id=\"post-donate-share\" style=\"display:none; text-align:center; padding:20px; background:#f0f7f0; border-radius:12px; max-width:420px; animation: fadeIn 0.4s ease;\">\n    <p style=\"font-size:16px; font-weight:600; margin:0 0 12px 0;\">🎉 Thanks for donating! Help spread the word:</p>\n    <a href=\"https://twitter.com/intent/tweet?text=I%20supported%20Joe%20Schiarizzi%20for%20Congress%20by%20donating%20crypto%20at%20votejoe.org%2Fcrypto%20%F0%9F%87%BA%F0%9F%87%B8%E2%9C%A8\"\n       target=\"_blank\"\n       style=\"display:inline-block; background:#000; color:#fff; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:600;\">\n      🐦 Share on X\n    </a>\n  </div>\n</div>\n\n<style>\n  @keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-8px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n</style>\n\n<script>\n  document.getElementById('widget-button').addEventListener('click', function() {\n    document.getElementById('post-donate-share').style.display = 'block';\n  });\n</script>\n",
-              "bgColor": "bg0",
-              "padding": "padding-standard"
-            },
-            "type": "EMBED",
-            "title": "Embed",
-            "pageId": "f753205f-b88a-4a2c-bbc4-f25c6e0351ec",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-07T03:56:05.947437+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": null,
-            "postStructure": null,
             "primaryBlockId": null,
             "lastTranslatedAt": null
           },
@@ -2289,70 +2071,6 @@
             "primaryBlockId": null,
             "lastTranslatedAt": null
           },
-          "683852cd-f340-4c61-80e0-16f6ddd2ae04": {
-            "id": "683852cd-f340-4c61-80e0-16f6ddd2ae04",
-            "data": {
-              "items": [
-                {
-                  "id": "80dfbe9c-0951-413b-8e77-034ac7d74f5c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=10",
-                  "amount": 10
-                },
-                {
-                  "id": "f7f964bc-5f25-4768-aac1-9048f3ce3351",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=25",
-                  "amount": 25
-                },
-                {
-                  "id": "e56b905b-52cf-4c91-aea1-e993adabafa5",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=50",
-                  "amount": 50
-                },
-                {
-                  "id": "a9b76e22-29a6-46f4-8061-c41b0b120b1b",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=100",
-                  "amount": 100
-                },
-                {
-                  "id": "391ef97b-292c-438a-b6c1-82ead2b9193c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=250",
-                  "amount": 250
-                },
-                {
-                  "id": "15510dcc-c475-46be-8e93-e8c1cc9272bd",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=3500",
-                  "amount": null
-                }
-              ],
-              "bgColor": "bg4",
-              "eyebrow": "Support Our Campaign",
-              "headline": "<p>Support our campaign:</p>",
-              "marginTop": "top-large",
-              "headlineOn": true,
-              "layoutType": "STANDARD",
-              "numColumns": "two-columns",
-              "description": "<p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">We count on everyday folks to help power our \"people over profits\" campaign. Join our movement by donating.</strong></span></p>",
-              "donateLabel": "Donate:",
-              "showEyebrow": false,
-              "marginBottom": "bottom-large",
-              "showDisclaimer": false,
-              "otherButtonText": "Other",
-              "showDescription": true
-            },
-            "type": "DONATE",
-            "title": "Donate",
-            "pageId": "e4ae79bc-9a07-4ddd-a062-b2752885bf38",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-14T18:44:03.592649+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "89532af7-9bcb-43b1-b443-8e32867d829e",
-            "postStructure": null,
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
           "3de9dd16-c62f-4ff6-b6da-4f68d9ca7036": {
             "id": "3de9dd16-c62f-4ff6-b6da-4f68d9ca7036",
             "data": {
@@ -2394,96 +2112,6 @@
             "published": true,
             "updatedAt": "2026-04-27T17:36:20.255714+00:00",
             "linkedBlockId": "9c7430c6-09c0-4e43-a9f9-f97914795b34",
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
-          "0a94fe53-8471-4d48-9e87-797b35a755a1": {
-            "id": "0a94fe53-8471-4d48-9e87-797b35a755a1",
-            "data": {
-              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
-              "action": true,
-              "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
-              "bgColor": "bg4",
-              "buttons": [
-                {
-                  "id": "a311c783-1232-4bb1-9dbc-8342dde63d3e",
-                  "url": "",
-                  "buttonText": "Learn More"
-                }
-              ],
-              "eyebrow": "<p>Schiarizzi for Congress</p>",
-              "headline": "Donate",
-              "linkSize": 5,
-              "wrapForm": false,
-              "embedCode": "",
-              "marginTop": "top-large",
-              "actionType": "form",
-              "buttonSize": 0,
-              "buttonType": "underlined",
-              "headlineOn": true,
-              "layoutType": "full_width_image",
-              "bigLogoSize": 0,
-              "buttonColor": "button-background",
-              "description": "Add your description here",
-              "eyebrowSize": 0,
-              "logoAltText": "",
-              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=1221%2C0%2C4901%2C4901",
-              "showEyebrow": true,
-              "adjustLayout": "standard",
-              "alignContent": "content-center",
-              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
-              "formBarColor": "button-background",
-              "headlineSize": 2,
-              "logoPosition": "top-left",
-              "marginBottom": "bottom-large",
-              "navTextColor": "text",
-              "overlayColor": "bg4",
-              "smallFormGap": false,
-              "featuredColor": "button-background",
-              "adjustLogoSize": -5,
-              "formFieldColor": "form-field-background",
-              "navButtonColor": "bg2",
-              "overlayOpacity": 50,
-              "showEmbedVideo": false,
-              "alignNavigation": "nav-right",
-              "descriptionSize": 0,
-              "showDescription": false,
-              "socialIconsSize": 5,
-              "socialIconsType": "bordered",
-              "textShadowColor": "#001f45",
-              "videoButtonText": "Watch Now",
-              "adjustHeroHeight": 5,
-              "socialsIconColor": "text",
-              "videoButtonStyle": "filled",
-              "animatePlayButton": true,
-              "navUnderlineColor": "flourish-secondary",
-              "textShadowOpacity": 80,
-              "featuredButtonSize": 1,
-              "logoPositionMobile": "above-content",
-              "overlayColorMobile": "bg4",
-              "socialsBorderColor": "headline-secondary",
-              "headerGradientColor": "#001f45",
-              "socialIconsPosition": "in-navigation",
-              "adjustMobileLogoSize": 0,
-              "overlayOpacityMobile": 50,
-              "showVideoButtonLabel": true,
-              "desktopImageAlignment": "top",
-              "headerGradientOpacity": 100,
-              "disclaimerCheckboxColor": "headline-secondary",
-              "displayMobileLogoSettings": false,
-              "displayMobileImageSettings": true
-            },
-            "type": "HERO",
-            "title": "Header",
-            "pageId": "f3d70eab-1dc2-4068-8a38-2e5edcbcf473",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-25T03:34:16.845566+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "b665b7a0-82b5-4edc-b578-07650d20d4fb",
             "postStructure": [],
             "primaryBlockId": null,
             "lastTranslatedAt": null
@@ -3121,86 +2749,6 @@
             "primaryBlockId": null,
             "lastTranslatedAt": null
           },
-          "6b7229c8-340a-4674-8f62-0855e0d8ab6f": {
-            "id": "6b7229c8-340a-4674-8f62-0855e0d8ab6f",
-            "data": {
-              "image": "https://run.imgix.net/16a66b13-6e6e-4e6a-8d95-a2cfd4a1f1b1/933cfe10-0ba8-4161-808b-b179730bc30b/933cfe10-0ba8-4161-808b-b179730bc30b.jpeg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C203%2C8192%2C4686&auto=compress%2Cformat&fit=fillmax&w=2048&q=75",
-              "items": [
-                {
-                  "id": "80dfbe9c-0951-413b-8e77-034ac7d74f5c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=10",
-                  "amount": 10
-                },
-                {
-                  "id": "f7f964bc-5f25-4768-aac1-9048f3ce3351",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=25",
-                  "amount": 25
-                },
-                {
-                  "id": "e56b905b-52cf-4c91-aea1-e993adabafa5",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=50",
-                  "amount": 50
-                },
-                {
-                  "id": "a9b76e22-29a6-46f4-8061-c41b0b120b1b",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=100",
-                  "amount": 100
-                },
-                {
-                  "id": "391ef97b-292c-438a-b6c1-82ead2b9193c",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=250",
-                  "amount": 250
-                },
-                {
-                  "id": "15510dcc-c475-46be-8e93-e8c1cc9272bd",
-                  "url": "https://secure.actblue.com/donate/vote-joe?amount=3500",
-                  "amount": null
-                }
-              ],
-              "title": "<h3>Contribute now to support our campaign!</h3>",
-              "formId": "7fb85f46-5203-4d1b-a318-41487b6d4077",
-              "bgColor": "bg3",
-              "buttons": [
-                {
-                  "id": "d4c5a4a9-7d23-40aa-ad5d-bab43c118195",
-                  "url": "",
-                  "buttonText": "your button text here"
-                }
-              ],
-              "eyebrow": "<p>Donate Today</p>",
-              "heading": "Support Our Campaign!",
-              "variant": "DONATE",
-              "headline": "<p>Support our Campaign!</p>",
-              "embedCode": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7ZO5OMrnfXM?si=SELxas9FU_WRYbhI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-              "marginTop": "top-large",
-              "headlineOn": true,
-              "description": "<p><strong>We count on everyday folks to help power our \"people over profits\" campaign. Join our movement by donating.</strong></p>",
-              "displayLogo": true,
-              "enablePopup": true,
-              "showEyebrow": false,
-              "formProvider": "email",
-              "marginBottom": "bottom-large",
-              "timeToTrigger": 6,
-              "showDisclaimer": false,
-              "showDescription": true,
-              "usePreviewImage": true,
-              "videoDonateLogo": "",
-              "disclaimerDonate": "<p><strong>This is placeholder copy - please change it or hide this section via the sidebar toggle button. </strong>ActBlue's Express Lane service will process donations immediately upon someone clicking your Run site donation buttons and therefore requires a disclaimer which you can <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://support.actblue.com/campaigns/actblue-express/actblue-express-lane/\">read about here</a>. </p>"
-            },
-            "type": "LANDING_POPUP",
-            "title": "Landing Popup",
-            "pageId": "6dd54cc0-bf57-4ad5-ab45-177056936065",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-03-09T21:02:47.549+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "562e6e64-d9db-4b65-b3a5-dfddc81138a1",
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
           "501eb3a1-dc59-4e20-a960-aeb926f474c3": {
             "id": "501eb3a1-dc59-4e20-a960-aeb926f474c3",
             "data": {
@@ -3456,7 +3004,7 @@
           "abf2a5de-6824-41af-a927-1f2ac79c7629": {
             "id": "abf2a5de-6824-41af-a927-1f2ac79c7629",
             "data": {
-              "text": "<h2><strong>Imagine common sense crypto policy and regulation, aligned with American dynamism.</strong></h2><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Loans backed by Renewable Energy Certificates which fund new solar farms. Private payment rails between patients and doctors that ensure our rights to access any medical care. New economic models for funding the commons and mutual aid. These are all being built with blockchain technology in America today, and align with our long term values. Washington shouldn't stifle innovation or push jobs overseas.</strong></span></p><h3 style=\"text-align: left;\"><span style=\"color: var(--color-text-accent-secondary); text-decoration-color: var(--color-text-accent-secondary);\">Experience</span></h3><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">After his family nearly lost their home in the Great Recession of 2008, Joe has supported creating a more open, fair, and transparent financial systems. Joe Schiarizzi is more than just a cryptobagholder, he is a builder. As an engineer, he has contributed to several Decentralized Finance protocols, and open source infrastructure that funds public goods.</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">More than 1% of the stored state of Ethereum was created by calling smart contracts Joe personally wrote. Using Tokenization technology he created the world's first loan collateralized entirely by American Renewable Energy Certificates. Joe believes financial vehicles like borrowing against stocks to avoid paying taxes or investing in startups shouldn't only be reserved for the super wealthy.&nbsp;</strong></span></p><h3 style=\"text-align: left;\"><span style=\"color: var(--color-text-accent-secondary); text-decoration-color: var(--color-text-accent-secondary);\">Policies</span></h3><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">CLARITY and GENIUS are strong starts but leave gaps.</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe supports these common sense policy choices related to crypto in the US, and plans to push for them if elected to Congress.</strong></span></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Clear rules on staking/mining income and how capital gains should be taxed.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Simpler tax reporting for small crypto holders—everyday Americans shouldn't be penalized holding digital assets.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Small businesses should be allowed to experiment with tokens without SEC consequences. A froyo shop's loyalty token isn't a securities offering.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Expand eligible stablecoin collateral to include assets like municipal bonds that fuel American dynamism by funding hospitals, schools, roads, clean water, clean air, healthcare, sustainable energy projects, and more.</strong></span></p></li></ol><p></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">The Constitution charges our government with promoting the general welfare and securing the blessings of Liberty. Blockchain advances both missions by empowering Americans to coordinate more efficiently and openly. Stablecoins are now one of the largest buyers of US debt. Our long term monetary policy needs to reflect that reality.&nbsp;</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Washington must protect innovation, not regulate it overseas. Our goal should be to ensure every American can fairly and safely access the financial tools they need to succeed.</strong></span></p><p></p><p></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">All donations to our campaign are only accepted from US Citizens and are 100% compliant with all US Campaign finance laws.</strong></span></p>",
+              "text": "<h2><strong>Imagine common sense crypto policy and regulation, aligned with American dynamism.</strong></h2><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Loans backed by Renewable Energy Certificates which fund new solar farms. Private payment rails between patients and doctors that ensure our rights to access any medical care. New economic models for funding the commons and mutual aid. These are all being built with blockchain technology in America today, and align with our long term values. Washington shouldn't stifle innovation or push jobs overseas.</strong></span></p><h3 style=\"text-align: left;\"><span style=\"color: var(--color-text-accent-secondary); text-decoration-color: var(--color-text-accent-secondary);\">Experience</span></h3><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">After his family nearly lost their home in the Great Recession of 2008, Joe has supported creating a more open, fair, and transparent financial systems. Joe Schiarizzi is more than just a cryptobagholder, he is a builder. As an engineer, he has contributed to several Decentralized Finance protocols, and open source infrastructure that funds public goods.</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">More than 1% of the stored state of Ethereum was created by calling smart contracts Joe personally wrote. Using Tokenization technology he created the world's first loan collateralized entirely by American Renewable Energy Certificates. Joe believes financial vehicles like borrowing against stocks to avoid paying taxes or investing in startups shouldn't only be reserved for the super wealthy.&nbsp;</strong></span></p><h3 style=\"text-align: left;\"><span style=\"color: var(--color-text-accent-secondary); text-decoration-color: var(--color-text-accent-secondary);\">Policies</span></h3><p style=\"text-align: left;\"><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">CLARITY and GENIUS are strong starts but leave gaps.</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Joe supports these common sense policy choices related to crypto in the US, and plans to push for them if elected to Congress.</strong></span></p><ol><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Clear rules on staking/mining income and how capital gains should be taxed.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Simpler tax reporting for small crypto holders—everyday Americans shouldn't be penalized holding digital assets.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Small businesses should be allowed to experiment with tokens without SEC consequences. A froyo shop's loyalty token isn't a securities offering.</strong></span></p></li><li><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Expand eligible stablecoin collateral to include assets like municipal bonds that fuel American dynamism by funding hospitals, schools, roads, clean water, clean air, healthcare, sustainable energy projects, and more.</strong></span></p></li></ol><p></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">The Constitution charges our government with promoting the general welfare and securing the blessings of Liberty. Blockchain advances both missions by empowering Americans to coordinate more efficiently and openly. Stablecoins are now one of the largest buyers of US debt. Our long term monetary policy needs to reflect that reality.&nbsp;</strong></span></p><p><span style=\"color: var(--color-text); text-decoration-color: var(--color-text);\"><strong style=\"color: var(--color-text); text-decoration-color: var(--color-text);\">Washington must protect innovation, not regulate it overseas. Our goal should be to ensure every American can fairly and safely access the financial tools they need to succeed.</strong></span></p><p></p><p></p>",
               "bgColor": "bg0",
               "eyebrow": "Eyebrow Text Here",
               "headline": "Headline Text Here",
@@ -3587,96 +3135,6 @@
             "published": true,
             "updatedAt": "2026-04-27T17:36:20.255714+00:00",
             "linkedBlockId": null,
-            "postStructure": [],
-            "primaryBlockId": null,
-            "lastTranslatedAt": null
-          },
-          "7ff361a1-3ab3-42cd-a039-8003799787b6": {
-            "id": "7ff361a1-3ab3-42cd-a039-8003799787b6",
-            "data": {
-              "logo": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/963e7212-15d5-4fd3-8a31-b4cef7fdea7d/963e7212-15d5-4fd3-8a31-b4cef7fdea7d.png?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1680%2C6250%2C2937",
-              "action": true,
-              "formId": "4960790c-70ac-4b5d-9973-05dd9e93a17b",
-              "bgColor": "bg4",
-              "buttons": [
-                {
-                  "id": "a311c783-1232-4bb1-9dbc-8342dde63d3e",
-                  "url": "",
-                  "buttonText": "Learn More"
-                }
-              ],
-              "eyebrow": "<p>Schiarizzi for Congress</p>",
-              "headline": "Donate",
-              "linkSize": 5,
-              "wrapForm": false,
-              "embedCode": "",
-              "marginTop": "top-large",
-              "actionType": "form",
-              "buttonSize": 0,
-              "buttonType": "underlined",
-              "headlineOn": true,
-              "layoutType": "full_width_image",
-              "bigLogoSize": 0,
-              "buttonColor": "button-background",
-              "description": "Add your description here",
-              "eyebrowSize": 0,
-              "logoAltText": "",
-              "mobileImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5/8d01d8d4-6c41-4001-a8aa-fa838dceb3f5.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=1221%2C0%2C4901%2C4901",
-              "showEyebrow": true,
-              "adjustLayout": "standard",
-              "alignContent": "content-center",
-              "desktopImage": "https://run.imgix.net/3ec0a8a3-e781-4b41-a7e4-df6fe5211b46/6e0d14a6-b39d-4b0b-943a-66eddeb88e87/6e0d14a6-b39d-4b0b-943a-66eddeb88e87.jpg?ixlib=js-3.8.0&bri=0&con=0&sat=0&high=0&shad=0&usm=0&rect=0%2C1045%2C5642%2C3830",
-              "formBarColor": "button-background",
-              "headlineSize": 2,
-              "logoPosition": "top-left",
-              "marginBottom": "bottom-large",
-              "navTextColor": "text",
-              "overlayColor": "bg4",
-              "smallFormGap": false,
-              "featuredColor": "button-background",
-              "adjustLogoSize": -5,
-              "formFieldColor": "form-field-background",
-              "navButtonColor": "bg2",
-              "overlayOpacity": 50,
-              "showEmbedVideo": false,
-              "alignNavigation": "nav-right",
-              "descriptionSize": 0,
-              "showDescription": false,
-              "socialIconsSize": 5,
-              "socialIconsType": "bordered",
-              "textShadowColor": "#001f45",
-              "videoButtonText": "Watch Now",
-              "adjustHeroHeight": 5,
-              "socialsIconColor": "text",
-              "videoButtonStyle": "filled",
-              "animatePlayButton": true,
-              "navUnderlineColor": "flourish-secondary",
-              "textShadowOpacity": 80,
-              "featuredButtonSize": 1,
-              "logoPositionMobile": "above-content",
-              "overlayColorMobile": "bg4",
-              "socialsBorderColor": "headline-secondary",
-              "headerGradientColor": "#001f45",
-              "socialIconsPosition": "in-navigation",
-              "adjustMobileLogoSize": 0,
-              "overlayOpacityMobile": 50,
-              "showVideoButtonLabel": true,
-              "desktopImageAlignment": "top",
-              "headerGradientOpacity": 100,
-              "disclaimerCheckboxColor": "headline-secondary",
-              "displayMobileLogoSettings": false,
-              "displayMobileImageSettings": true
-            },
-            "type": "HERO",
-            "title": "Header",
-            "pageId": "43b4db8c-1ec8-4d4b-9494-6a5e6491ee7a",
-            "siteId": "3ec0a8a3-e781-4b41-a7e4-df6fe5211b46",
-            "deleted": false,
-            "variant": null,
-            "createdAt": "2026-04-06T15:06:04.888788+00:00",
-            "published": true,
-            "updatedAt": "2026-04-27T17:36:20.255714+00:00",
-            "linkedBlockId": "b665b7a0-82b5-4edc-b578-07650d20d4fb",
             "postStructure": [],
             "primaryBlockId": null,
             "lastTranslatedAt": null

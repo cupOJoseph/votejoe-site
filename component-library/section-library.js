@@ -56,23 +56,6 @@ export function TextSection(block) {
   );
 }
 
-export function DonateSection(block) {
-  const data = block.data || {};
-  const items = data.items || [];
-  return sectionShell(
-    block,
-    html`
-      ${data.headline ? `<h3>${htmlToText(data.headline)}</h3>` : ""}
-      ${data.description || ""}
-      <div class="button-grid">
-        ${items
-          .map((item) => `<a href="${item.url || "#"}">${item.amount ? `$${item.amount}` : data.otherButtonText || "Other"}</a>`)
-          .join("")}
-      </div>
-    `,
-  );
-}
-
 export function GallerySection(block) {
   const data = block.data || {};
   const images = data.images || data.items || [];
@@ -131,7 +114,7 @@ export function renderSection(block) {
   if (["BASIC_TEXT", "LONG_FORM", "INTRO", "CTA", "ANNOUNCEMENT", "DATA_DETAILS", "TESTIMONIALS", "LOGOS"].includes(block.type)) {
     return TextSection(block);
   }
-  if (block.type === "DONATE") return DonateSection(block);
+  if (block.type === "DONATE") return "";
   if (["GALLERY", "HEADSHOTS", "PEOPLE_WITH_BIOS"].includes(block.type)) return GallerySection(block);
   if (["PRIORITIES_LIST", "PRIORITIES_GRID", "NEWS_PREVIEW", "BULLET_COLUMNS", "VOTING", "CARDS"].includes(block.type)) {
     return ListSection(block);

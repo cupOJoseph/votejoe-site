@@ -10,8 +10,6 @@ and all published routes linked or present in the site data:
 - `/check`
 - `/repair`
 - `/crypto`
-- `/donate`
-- `/donate2`
 - `/issues`
 - `/events`
 - `/news`

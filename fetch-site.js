@@ -13,8 +13,6 @@ const routes = [
   "check",
   "repair",
   "crypto",
-  "donate",
-  "donate2",
   "issues",
   "events",
   "news",

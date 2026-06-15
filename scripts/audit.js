@@ -11,8 +11,6 @@ const requiredRoutes = [
   "check",
   "repair",
   "crypto",
-  "donate",
-  "donate2",
   "issues",
   "events",
   "news",
@@ -58,6 +56,12 @@ assert(html.includes("/about"), "Homepage or shared HTML is missing /about link.
 assert(html.includes("/volunteer"), "Homepage or shared HTML is missing /volunteer link.");
 assert(html.includes("/repair"), "Homepage or shared HTML is missing /repair link.");
 assert(html.includes("/check"), "Homepage or shared HTML is missing /check link.");
+assert(!html.includes("secure.actblue.com/donate"), "Found ActBlue donation link in rendered HTML.");
+assert(!html.includes("Donate Crypto Now"), "Found crypto donation widget in rendered HTML.");
+assert(!html.includes("post-donate-share"), "Found crypto post-donation widget in rendered HTML.");
+assert(!html.includes("widget-button"), "Found crypto donation widget button in rendered HTML.");
+assert(!html.includes("widget-script"), "Found crypto donation widget script in rendered HTML.");
+assert(!html.includes("form.contributions.shift4payments"), "Found crypto donation payment script in rendered HTML.");
 
 assert(exists("component-library/index.html"), "Missing component library page.");
 assert(exists("component-library/section-library.js"), "Missing reusable section-library.js.");
@@ -72,9 +76,19 @@ assert(handler.includes('pathname === "/_next/image"'), "Handler is missing loca
 assert(handler.includes('pathname.startsWith("/img/")'), "Handler is missing bundled /img asset route support.");
 assert(handler.includes("imageFromManifest"), "Handler is missing manifest-backed image optimizer mapping.");
 const library = fs.readFileSync(path.join(root, "component-library", "section-library.js"), "utf8");
-for (const name of ["HeroSection", "FooterSection", "DonateSection", "GallerySection", "renderSection"]) {
+for (const name of ["HeroSection", "FooterSection", "GallerySection", "renderSection"]) {
   assert(library.includes(`function ${name}`) || library.includes(` ${name}(`), `Missing component export: ${name}`);
 }
+
+const nextData = fs.readFileSync(path.join(root, "data", "next-data.json"), "utf8");
+assert(!nextData.includes("secure.actblue.com/donate"), "Found ActBlue donation link in data/next-data.json.");
+assert(!nextData.includes('"type": "DONATE"'), "Found DONATE block in data/next-data.json.");
+assert(!nextData.includes('"type":"DONATE"'), "Found minified DONATE block in data/next-data.json.");
+assert(!nextData.includes("LANDING_POPUP"), "Found donation landing popup block in data/next-data.json.");
+assert(!nextData.includes("post-donate-share"), "Found crypto post-donation widget in data/next-data.json.");
+assert(!nextData.includes("widget-button"), "Found crypto donation widget button in data/next-data.json.");
+assert(!nextData.includes("widget-script"), "Found crypto donation widget script in data/next-data.json.");
+assert(!nextData.includes("form.contributions.shift4payments"), "Found crypto donation payment script in data/next-data.json.");
 
 if (failures.length) {
   console.error(failures.join("\n"));
