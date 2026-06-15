@@ -23,9 +23,10 @@ The server starts at `http://localhost:4173` and uses the next open port if need
 
 The signup form posts to `POST /api/email-signups`.
 
-In production, signups are saved to the connected Vercel Blob store when this env var is present:
+In production, signups are saved to the connected Vercel Blob store when either of these env vars is present:
 
 ```sh
+BLOB_STORE_ID
 BLOB_READ_WRITE_TOKEN
 ```
 

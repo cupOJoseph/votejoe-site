@@ -159,7 +159,7 @@ async function saveEmailSignup(email, req) {
     return;
   }
 
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
     const { put } = await import("@vercel/blob");
     await put(`email-signups/${timestamp.replace(/[:.]/g, "-")}-${id}.json`, JSON.stringify(record, null, 2), {
       access: "private",
