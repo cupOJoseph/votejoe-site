@@ -244,8 +244,8 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(28px, 8.1vw, 34px);
-    line-height: 1.06;
+    font-size: clamp(24px, 6.6vw, 28px);
+    line-height: 1.12;
     margin-bottom: 22px;
   }
 
