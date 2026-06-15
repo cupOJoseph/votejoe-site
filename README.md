@@ -1,45 +1,51 @@
-# votejoe.org Static Clone
+# votejoe.org
 
-This directory contains a static local mirror of `votejoe.org`, including `/template`
-and all published routes linked or present in the site data:
+A small campaign update site for `votejoe.org`.
 
-- `/`
-- `/template`
-- `/about`
-- `/volunteer`
-- `/check`
-- `/repair`
-- `/crypto`
-- `/issues`
-- `/events`
-- `/news`
+The public site is intentionally only:
 
-Run it with:
+- a header photo of Joe
+- social links
+- the campaign suspension letter
+- an email signup form
+
+There are no donation links, ActBlue buttons, crypto widgets, or old campaign pages.
+
+## Run locally
 
 ```sh
 npm start
 ```
 
-The server defaults to `http://localhost:4173` and automatically tries the next port
-if that port is already busy.
+The server starts at `http://localhost:4173` and uses the next open port if needed.
 
-The mirrored artifacts are:
+## Email storage
 
-- `pages/*/index.html`: live route snapshots with local asset references.
-- `public/_next`: mirrored Next.js CSS and JavaScript bundles from the live site.
-- `public/assets/images`: mirrored image assets used by the pages and template data.
-- `data/next-data.json`: extracted published site data from `__NEXT_DATA__`.
-- `component-library`: reusable section renderers and a catalog page based on the
-  sections from `/template`.
+The signup form posts to `POST /api/email-signups`.
 
-Useful commands:
+In production, signups are saved to Vercel KV or Upstash Redis through the REST API. Configure one of these env var pairs on the Vercel project:
 
 ```sh
-npm run fetch
+KV_REST_API_URL
+KV_REST_API_TOKEN
+```
+
+or:
+
+```sh
+UPSTASH_REDIS_REST_URL
+UPSTASH_REDIS_REST_TOKEN
+```
+
+The endpoint writes each signup to:
+
+- `email_signup:<sha256(email)>` as a Redis hash containing email, createdAt, ip, userAgent, and referrer
+- `email_signups` as a sorted set of signup IDs scored by timestamp
+
+If storage is not configured, the endpoint returns `503` and the UI shows an error. It does not pretend an email was saved.
+
+## Verify
+
+```sh
 npm run audit
-npm start
 ```
-
-`npm run fetch` refreshes the mirror from the live site. `npm run audit` verifies
-that the route HTML, static bundles, local images, and component library files are
-present.

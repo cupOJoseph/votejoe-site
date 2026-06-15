@@ -1,10 +1,9 @@
 {
-  "name": "votejoe-static-clone",
+  "name": "votejoe-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Static local clone of votejoe.org with reusable template section components.",
+  "description": "Simple concession page for votejoe.org with Vercel KV email capture.",
   "scripts": {
-    "fetch": "node fetch-site.js",
     "start": "node server.js",
     "audit": "node scripts/audit.js"
   }

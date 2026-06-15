@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/index.js": {
-      "includeFiles": "{pages,public,data,component-library}/**"
+      "includeFiles": "public/**"
     }
   },
   "rewrites": [

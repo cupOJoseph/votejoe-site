@@ -2,20 +2,6 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.resolve(__dirname, "..");
-const manifest = JSON.parse(fs.readFileSync(path.join(root, "data", "manifest.json"), "utf8"));
-const requiredRoutes = [
-  "",
-  "template",
-  "about",
-  "volunteer",
-  "check",
-  "repair",
-  "crypto",
-  "issues",
-  "events",
-  "news",
-];
-
 const failures = [];
 
 function assert(condition, message) {
@@ -26,77 +12,62 @@ function exists(file) {
   return fs.existsSync(path.join(root, file));
 }
 
-for (const route of requiredRoutes) {
-  const file = `pages/${route || "index"}/index.html`;
-  assert(exists(file), `Missing route HTML: ${file}`);
+function read(file) {
+  return fs.readFileSync(path.join(root, file), "utf8");
 }
 
-for (const ref of manifest.staticRefs) {
-  assert(exists(`public${ref}`), `Missing static bundle: public${ref}`);
+const requiredFiles = [
+  "api/index.js",
+  "handler.js",
+  "server.js",
+  "vercel.json",
+  "public/joe-header.jpg",
+  "public/site.css",
+  "public/site.js",
+];
+
+for (const file of requiredFiles) {
+  assert(exists(file), `Missing required file: ${file}`);
 }
 
-for (const image of [...manifest.images, ...manifest.nextImages]) {
-  assert(exists(`public${image.local}`), `Missing local image: public${image.local}`);
+for (const removedPath of ["pages", "data", "component-library", "public/_next", "public/assets", "public/img"]) {
+  assert(!exists(removedPath), `Old site artifact still exists: ${removedPath}`);
 }
 
-const html = requiredRoutes
-  .map((route) => fs.readFileSync(path.join(root, "pages", route || "index", "index.html"), "utf8"))
-  .join("\n");
-const htmlWithoutNextData = html.replace(
-  /<script id="__NEXT_DATA__" type="application\/json">[\s\S]*?<\/script>/g,
-  "",
-);
+const sourceFiles = requiredFiles.filter((file) => !file.endsWith(".jpg"));
+const source = sourceFiles.map((file) => read(file)).join("\n");
 
-assert(!htmlWithoutNextData.includes("https://run.imgix.net"), "Found live run.imgix.net image reference in rendered HTML.");
-assert(
-  !htmlWithoutNextData.includes("https://media.designedtorun.com"),
-  "Found live media.designedtorun.com image reference in rendered HTML.",
-);
-assert(html.includes("/about"), "Homepage or shared HTML is missing /about link.");
-assert(html.includes("/volunteer"), "Homepage or shared HTML is missing /volunteer link.");
-assert(html.includes("/repair"), "Homepage or shared HTML is missing /repair link.");
-assert(html.includes("/check"), "Homepage or shared HTML is missing /check link.");
-assert(!html.includes("secure.actblue.com/donate"), "Found ActBlue donation link in rendered HTML.");
-assert(!html.includes("Donate Crypto Now"), "Found crypto donation widget in rendered HTML.");
-assert(!html.includes("post-donate-share"), "Found crypto post-donation widget in rendered HTML.");
-assert(!html.includes("widget-button"), "Found crypto donation widget button in rendered HTML.");
-assert(!html.includes("widget-script"), "Found crypto donation widget script in rendered HTML.");
-assert(!html.includes("form.contributions.shift4payments"), "Found crypto donation payment script in rendered HTML.");
+assert(source.includes("/api/email-signups"), "Missing email signup API route.");
+assert(source.includes("KV_REST_API_URL"), "Missing Vercel KV REST URL support.");
+assert(source.includes("KV_REST_API_TOKEN"), "Missing Vercel KV REST token support.");
+assert(source.includes("UPSTASH_REDIS_REST_URL"), "Missing Upstash REST URL fallback support.");
+assert(source.includes("UPSTASH_REDIS_REST_TOKEN"), "Missing Upstash REST token fallback support.");
+assert(source.includes("email_signup:"), "Missing durable signup hash write.");
+assert(source.includes("email_signups"), "Missing signup index write.");
+assert(source.includes("joe-header.jpg"), "Missing Joe header image reference.");
 
-assert(exists("component-library/index.html"), "Missing component library page.");
-assert(exists("component-library/section-library.js"), "Missing reusable section-library.js.");
-assert(exists("api/index.js"), "Missing Vercel serverless entrypoint.");
-assert(exists("handler.js"), "Missing shared request handler.");
-assert(exists("vercel.json"), "Missing Vercel rewrite configuration.");
-assert(exists("public/img/site/pinstripes.png"), "Missing pinstripe texture asset.");
-const server = fs.readFileSync(path.join(root, "server.js"), "utf8");
-const handler = fs.readFileSync(path.join(root, "handler.js"), "utf8");
-assert(handler.includes('pathname.startsWith("/_next/data/")'), "Handler is missing local Next data route support.");
-assert(handler.includes('pathname === "/_next/image"'), "Handler is missing local Next image route support.");
-assert(handler.includes('pathname.startsWith("/img/")'), "Handler is missing bundled /img asset route support.");
-assert(handler.includes("imageFromManifest"), "Handler is missing manifest-backed image optimizer mapping.");
-const library = fs.readFileSync(path.join(root, "component-library", "section-library.js"), "utf8");
-for (const name of ["HeroSection", "FooterSection", "GallerySection", "renderSection"]) {
-  assert(library.includes(`function ${name}`) || library.includes(` ${name}(`), `Missing component export: ${name}`);
+const forbidden = [
+  "secure.actblue.com",
+  "ActBlue",
+  "Donate",
+  "donate button",
+  "Donate Crypto",
+  "post-donate-share",
+  "widget-button",
+  "widget-script",
+  "form.contributions.shift4payments",
+  "mailto:",
+  "run.imgix.net",
+  "media.designedtorun.com",
+];
+
+for (const token of forbidden) {
+  assert(!source.includes(token), `Forbidden legacy/donation token found: ${token}`);
 }
-
-const nextData = fs.readFileSync(path.join(root, "data", "next-data.json"), "utf8");
-assert(!nextData.includes("secure.actblue.com/donate"), "Found ActBlue donation link in data/next-data.json.");
-assert(!nextData.includes('"type": "DONATE"'), "Found DONATE block in data/next-data.json.");
-assert(!nextData.includes('"type":"DONATE"'), "Found minified DONATE block in data/next-data.json.");
-assert(!nextData.includes("LANDING_POPUP"), "Found donation landing popup block in data/next-data.json.");
-assert(!nextData.includes("post-donate-share"), "Found crypto post-donation widget in data/next-data.json.");
-assert(!nextData.includes("widget-button"), "Found crypto donation widget button in data/next-data.json.");
-assert(!nextData.includes("widget-script"), "Found crypto donation widget script in data/next-data.json.");
-assert(!nextData.includes("form.contributions.shift4payments"), "Found crypto donation payment script in data/next-data.json.");
 
 if (failures.length) {
   console.error(failures.join("\n"));
   process.exit(1);
 }
 
-console.log(
-  `Audit passed: ${requiredRoutes.length} routes, ${manifest.staticRefs.length} static refs, ${
-    manifest.images.length + manifest.nextImages.length
-  } images, and component library files are present.`,
-);
+console.log(`Audit passed: ${requiredFiles.length} required files, no donation links, and durable email capture configured.`);

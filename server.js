@@ -17,7 +17,7 @@ function listen(port) {
 }
 
 server.on("listening", () => {
-  console.log(`votejoe static clone: http://localhost:${server.address().port}`);
+  console.log(`votejoe site: http://localhost:${server.address().port}`);
 });
 
 listen(startPort);
