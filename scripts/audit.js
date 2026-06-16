@@ -21,6 +21,7 @@ const requiredFiles = [
   "handler.js",
   "server.js",
   "vercel.json",
+  "public/campaign-logo.png",
   "public/joe-header.jpg",
   "public/site.css",
   "public/site.js",
@@ -49,6 +50,7 @@ assert(source.includes("email-signups/"), "Missing private email signup blob pat
 assert(source.includes("email_signup:"), "Missing durable signup hash write.");
 assert(source.includes("email_signups"), "Missing signup index write.");
 assert(source.includes("joe-header.jpg"), "Missing Joe header image reference.");
+assert(source.includes("campaign-logo.png"), "Missing campaign logo reference.");
 
 const forbidden = [
   "secure.actblue.com",

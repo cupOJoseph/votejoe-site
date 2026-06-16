@@ -75,6 +75,11 @@ function pageHtml() {
           <p class="form-status" data-form-status role="status" aria-live="polite"></p>
         </form>
       </article>
+
+      <footer class="site-footer" aria-label="Campaign footer">
+        <img class="footer-logo" src="/campaign-logo.png" alt="Schiarizzi for Congress">
+        <p class="paid-for">Paid for by Schiarizzi for Congress</p>
+      </footer>
     </section>
   </main>
   <script src="/site.js" defer></script>
@@ -215,7 +220,7 @@ function handleRequest(req, res, root = __dirname) {
     return;
   }
 
-  if (pathname === "/site.css" || pathname === "/site.js" || pathname === "/joe-header.jpg") {
+  if (pathname === "/site.css" || pathname === "/site.js" || pathname === "/joe-header.jpg" || pathname === "/campaign-logo.png") {
     const file = safeJoin(path.join(root, "public"), pathname);
     return file ? sendFile(res, file) : send(res, 403, "Forbidden");
   }

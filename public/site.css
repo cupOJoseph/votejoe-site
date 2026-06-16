@@ -201,6 +201,34 @@ h1 {
   color: #991b1b;
 }
 
+.site-footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: clamp(34px, 6vw, 64px) auto 0;
+  text-align: center;
+}
+
+.footer-logo {
+  display: block;
+  height: auto;
+  max-width: min(280px, 72vw);
+}
+
+.paid-for {
+  background: #ffffff;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  margin: 0;
+  padding: 10px 14px;
+}
+
 @media (max-width: 640px) {
   .hero {
     max-height: none;
@@ -276,5 +304,19 @@ h1 {
 
   .email-row button {
     width: 100%;
+  }
+
+  .site-footer {
+    gap: 14px;
+    margin-top: 34px;
+  }
+
+  .footer-logo {
+    max-width: min(230px, 72vw);
+  }
+
+  .paid-for {
+    font-size: 12px;
+    padding: 9px 12px;
   }
 }
