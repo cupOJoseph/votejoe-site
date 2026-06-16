@@ -70,7 +70,7 @@ function pageHtml() {
           <label for="email">Stay in touch</label>
           <div class="email-row">
             <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-            <button type="submit">Join email list</button>
+            <button type="submit">Get Updates</button>
           </div>
           <p class="form-status" data-form-status role="status" aria-live="polite"></p>
         </form>
