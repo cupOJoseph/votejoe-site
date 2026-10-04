@@ -5,7 +5,8 @@
   "description": "Simple concession page for votejoe.org with Vercel KV email capture.",
   "scripts": {
     "start": "node server.js",
-    "audit": "node scripts/audit.js"
+    "audit": "node scripts/audit.js",
+    "test": "node --test scripts/admin.test.js"
   },
   "dependencies": {
     "@vercel/blob": "^2.4.0"

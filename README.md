@@ -54,6 +54,14 @@ When Redis is configured, the endpoint writes each signup to:
 
 If storage is not configured, the endpoint returns `503` and the UI shows an error. It does not pretend an email was saved.
 
+## Email admin page
+
+Visit `/admin` to see a list of unique subscriber emails and their latest signup times, then use **Export CSV** to download the complete list. The page reads existing private Blob records under `email-signups/` and, if configured, the Redis signup index. It does not display stored IP addresses, user agents, or referrers.
+
+Set a unique, randomly generated `ADMIN_PASSWORD` of at least 16 characters in the Vercel project's Production environment variables, then redeploy. The username defaults to `admin`; optionally set `ADMIN_USERNAME` to change it. Your browser will ask for these credentials when you open `/admin`. Never commit the password or send it in a URL. Without a strong password, the route returns `503` and exposes no signup data.
+
+The admin page and its API both require authentication and disable browser caching. CSV export runs in the authenticated browser after all pages of records have loaded. A valid password is required again in a new browser session.
+
 ## Verify
 
 ```sh

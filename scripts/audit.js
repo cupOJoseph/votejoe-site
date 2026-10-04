@@ -18,6 +18,7 @@ function read(file) {
 
 const requiredFiles = [
   "api/index.js",
+  "admin.js",
   "handler.js",
   "server.js",
   "vercel.json",
@@ -25,6 +26,8 @@ const requiredFiles = [
   "public/joe-header.jpg",
   "public/site.css",
   "public/site.js",
+  "public/admin.css",
+  "public/admin.js",
 ];
 
 for (const file of requiredFiles) {
@@ -52,6 +55,9 @@ assert(source.includes("email_signups"), "Missing signup index write.");
 assert(source.includes("joe-header.jpg"), "Missing Joe header image reference.");
 assert(source.includes("campaign-logo.png"), "Missing campaign logo reference.");
 assert(source.includes("data-election-modal"), "Missing election modal.");
+assert(source.includes("/admin/api/signups"), "Missing protected signup list API.");
+assert(source.includes("ADMIN_PASSWORD"), "Missing admin password requirement.");
+assert(source.includes("private, no-store"), "Missing private no-store policy for admin data.");
 assert(source.includes("showModal()"), "Election modal does not open on page load.");
 assert(source.includes("https://secure.actblue.com/donate/beyondfairfax"), "Missing four-candidate donation link.");
 for (const domain of ["shannontaylorva.com", "elaineforcongress.com", "tomperriello.com", "bethmacyforcongress.com"]) {
