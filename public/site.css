@@ -245,9 +245,11 @@ h1 {
   color: var(--ink);
   max-height: calc(100dvh - 28px);
   max-width: 640px;
+  inset: 0;
+  margin: auto;
   overflow-y: auto;
   padding: clamp(28px, 5vw, 44px);
-  position: relative;
+  position: fixed;
   width: calc(100% - 28px);
 }
 
