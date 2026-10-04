@@ -1,6 +1,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const { handleAdminRequest } = require("./admin");
 
 const mime = {
   ".css": "text/css; charset=utf-8",
@@ -232,11 +233,14 @@ function handleRequest(req, res, root = __dirname) {
   const pathname = url.pathname;
 
   if (pathname === "/api/email-signups") {
-    handleEmailSignup(req, res);
-    return;
+    return handleEmailSignup(req, res);
   }
 
-  if (pathname === "/site.css" || pathname === "/site.js" || pathname === "/joe-header.jpg" || pathname === "/campaign-logo.png") {
+  if (pathname === "/admin" || pathname.startsWith("/admin/")) {
+    return handleAdminRequest(req, res, pathname, url);
+  }
+
+  if (["/site.css", "/site.js", "/admin.css", "/admin.js", "/joe-header.jpg", "/campaign-logo.png"].includes(pathname)) {
     const file = safeJoin(path.join(root, "public"), pathname);
     return file ? sendFile(res, file) : send(res, 403, "Forbidden");
   }
