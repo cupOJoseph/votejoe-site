@@ -46,7 +46,7 @@ function pageHtml() {
   <meta property="og:title" content="Joe Schiarizzi">
   <meta property="og:description" content="A campaign update from Joe Schiarizzi.">
   <meta property="og:image" content="/joe-header.jpg">
-  <link rel="stylesheet" href="/site.css?v=20261004b">
+  <link rel="stylesheet" href="/site.css?v=20261004c">
 </head>
 <body>
   <main class="site-shell">
