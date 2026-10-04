@@ -79,7 +79,9 @@ a {
 
 .social-link:focus-visible,
 .email-row input:focus-visible,
-.email-row button:focus-visible {
+.email-row button:focus-visible,
+.election-modal button:focus-visible,
+.election-modal a:focus-visible {
   outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
@@ -170,7 +172,8 @@ h1 {
 }
 
 .email-row button {
-  background: var(--ink);
+  background: var(--blue);
+  border-color: var(--blue);
   color: #ffffff;
   cursor: pointer;
   font-size: 13px;
@@ -178,6 +181,11 @@ h1 {
   letter-spacing: 0.1em;
   padding: 0 18px;
   text-transform: uppercase;
+}
+
+.email-row button:hover:not(:disabled) {
+  background: #155b84;
+  border-color: #155b84;
 }
 
 .email-row button:disabled {
@@ -227,6 +235,134 @@ h1 {
   line-height: 1.35;
   margin: 0;
   padding: 10px 14px;
+}
+
+.election-modal {
+  background: #ffffff;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 28px 90px rgba(10, 20, 37, 0.35);
+  color: var(--ink);
+  max-height: calc(100dvh - 28px);
+  max-width: 640px;
+  overflow-y: auto;
+  padding: clamp(28px, 5vw, 44px);
+  position: relative;
+  width: calc(100% - 28px);
+}
+
+.election-modal::backdrop {
+  background: rgba(10, 20, 37, 0.72);
+}
+
+.election-modal-close {
+  align-items: center;
+  background: #f1f3f5;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 28px;
+  height: 38px;
+  justify-content: center;
+  line-height: 1;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 38px;
+}
+
+.election-modal-kicker {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin: 0 48px 12px 0;
+  text-transform: uppercase;
+}
+
+.election-modal h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.08;
+  margin: 0 36px 20px 0;
+}
+
+.election-modal p {
+  line-height: 1.5;
+}
+
+#election-modal-intro {
+  font-size: 17px;
+  margin: 0 0 20px;
+}
+
+.election-modal-list-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.election-modal-candidates {
+  display: grid;
+  gap: 6px;
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.election-modal-candidates li {
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 14px;
+  padding: 8px 0;
+}
+
+.election-modal-candidates span {
+  color: var(--muted);
+  flex: 0 0 52px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.election-modal-candidates a {
+  color: #135a83;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.election-modal-donate {
+  background: var(--blue);
+  border-radius: 6px;
+  color: #ffffff;
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 18px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.election-modal-donate:hover {
+  background: #155b84;
+}
+
+.election-modal-fineprint {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 8px 0 0;
+  text-align: center;
+}
+
+.election-modal-vote {
+  font-size: 15px;
+  font-weight: 800;
+  margin: 20px 0 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 @media (max-width: 640px) {
