@@ -1,4 +1,10 @@
 (function () {
+  const electionModal = document.querySelector("[data-election-modal]");
+  if (electionModal && typeof electionModal.showModal === "function") {
+    electionModal.querySelector("[data-close-modal]").addEventListener("click", () => electionModal.close());
+    electionModal.showModal();
+  }
+
   const form = document.querySelector("[data-email-form]");
   if (!form) return;
 

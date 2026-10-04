@@ -51,12 +51,14 @@ assert(source.includes("email_signup:"), "Missing durable signup hash write.");
 assert(source.includes("email_signups"), "Missing signup index write.");
 assert(source.includes("joe-header.jpg"), "Missing Joe header image reference.");
 assert(source.includes("campaign-logo.png"), "Missing campaign logo reference.");
+assert(source.includes("data-election-modal"), "Missing election modal.");
+assert(source.includes("showModal()"), "Election modal does not open on page load.");
+assert(source.includes("https://secure.actblue.com/donate/beyondfairfax"), "Missing four-candidate donation link.");
+for (const domain of ["shannontaylorva.com", "elaineforcongress.com", "tomperriello.com", "bethmacyforcongress.com"]) {
+  assert(source.includes(domain), `Missing candidate link: ${domain}`);
+}
 
 const forbidden = [
-  "secure.actblue.com",
-  "ActBlue",
-  "Donate",
-  "donate button",
   "Donate Crypto",
   "post-donate-share",
   "widget-button",
@@ -76,4 +78,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Audit passed: ${requiredFiles.length} required files, no donation links, and durable email capture configured.`);
+console.log(`Audit passed: ${requiredFiles.length} required files, fundraiser modal, and durable email capture configured.`);

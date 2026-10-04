@@ -8,8 +8,9 @@ The public site is intentionally only:
 - social links
 - the campaign suspension letter
 - an email signup form
+- a modal highlighting four 2026 Virginia House races and linking to the Fairfax County Democratic Committee's ActBlue donation form
 
-There are no donation links, ActBlue buttons, crypto widgets, or old campaign pages.
+There are no crypto widgets or old campaign pages.
 
 ## Run locally
 
@@ -21,7 +22,7 @@ The server starts at `http://localhost:4173` and uses the next open port if need
 
 ## Email storage
 
-The signup form posts to `POST /api/email-signups`.
+The signup form posts to `POST /api/email-signups`. It saves subscriber records; it does not send them to an email marketing service.
 
 In production, signups are saved to the connected Vercel Blob store when either of these env vars is present:
 
@@ -32,7 +33,7 @@ BLOB_READ_WRITE_TOKEN
 
 Each signup is written as a private JSON blob under `email-signups/`.
 
-The endpoint also supports Vercel KV or Upstash Redis through the REST API. Configure one of these env var pairs on the Vercel project to use Redis instead of Blob:
+The endpoint also supports Vercel KV or Upstash Redis through the REST API. When one of these env var pairs is configured, Redis takes precedence over Blob:
 
 ```sh
 KV_REST_API_URL

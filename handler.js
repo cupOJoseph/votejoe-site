@@ -45,7 +45,7 @@ function pageHtml() {
   <meta property="og:title" content="Joe Schiarizzi">
   <meta property="og:description" content="A campaign update from Joe Schiarizzi.">
   <meta property="og:image" content="/joe-header.jpg">
-  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/site.css?v=20261004b">
 </head>
 <body>
   <main class="site-shell">
@@ -82,7 +82,23 @@ function pageHtml() {
       </footer>
     </section>
   </main>
-  <script src="/site.js" defer></script>
+  <dialog class="election-modal" data-election-modal aria-labelledby="election-modal-title" aria-describedby="election-modal-intro">
+    <button class="election-modal-close" type="button" data-close-modal aria-label="Close message">&times;</button>
+    <p class="election-modal-kicker">Virginia 2026</p>
+    <h2 id="election-modal-title">Help flip four House seats</h2>
+    <p id="election-modal-intro">Virginia currently has six Democratic and five Republican U.S. House representatives. <strong>Our goal is to flip four of those five seats from red to blue</strong> by supporting the Democratic candidates in these races.</p>
+    <p class="election-modal-list-title">Learn more about the candidates:</p>
+    <ul class="election-modal-candidates">
+      <li><span>VA-01</span><a href="https://shannontaylorva.com/" target="_blank" rel="noopener noreferrer">Shannon Taylor</a></li>
+      <li><span>VA-02</span><a href="https://elaineforcongress.com/" target="_blank" rel="noopener noreferrer">Elaine Luria</a></li>
+      <li><span>VA-05</span><a href="https://www.tomperriello.com/" target="_blank" rel="noopener noreferrer">Tom Perriello</a></li>
+      <li><span>VA-06</span><a href="https://bethmacyforcongress.com/" target="_blank" rel="noopener noreferrer">Beth Macy</a></li>
+    </ul>
+    <a class="election-modal-donate" href="https://secure.actblue.com/donate/beyondfairfax" target="_blank" rel="noopener noreferrer">Donate to all four candidates</a>
+    <p class="election-modal-fineprint">The donation form is hosted by the Fairfax County Democratic Committee on ActBlue.</p>
+    <p class="election-modal-vote">Remember to vote by November 3, 2026!</p>
+  </dialog>
+  <script src="/site.js?v=20261004b" defer></script>
 </body>
 </html>`;
 }
