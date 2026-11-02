@@ -2,3 +2,7 @@ node_modules/
 .vercel/
 .DS_Store
 npm-debug.log*
+x-linkedin-bot/state.json
+x-linkedin-bot/.env
+x-linkedin-bot/.env.*
+!x-linkedin-bot/.env.example
